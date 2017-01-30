@@ -1,0 +1,58 @@
+MySql users
+
+MatDBClient
+11111111987987
+can only view table throught 'GetAll' stored procedure
+
+MatDBAdmin
+6$hjk#07hvsg#1s
+can edit table throught stored procedured
+
+MatDBAdminExt
+6$hjk#07hvsg#1f
+can delete records
+
+materials table
+ ID           INT primarykey notnull unique autoincrement
+ NAME         varchar(80) notnull unique
+ OUTDATED     tinyint(1) notnull unsigned default'0'
+ AMBIENTCOLOR int notnull default'0'
+ C            double notnull default'0'
+
+stored procedures
+ GetAll() 
+BEGIN
+ SELECT *
+ FROM materials; END
+ InsertAndReturnKey(_name varchar(80),_ambcol int,_c double)
+ BEGIN
+ INSERT INTO materials(NAME,AMBIENTCOLOR,C) VALUES(_name,_ambcol,_c); SELECT LAST_INSERT_ID(); 
+END
+ RemoveOutDated()
+ BEGIN DELETE FROM materials
+ WHERE OUTDATED=1; 
+END
+ SetNotOutdatedByID(_id int) 
+BEGIN UPDATE materials
+ SET DELETED=0
+ WHERE ID=_id; 
+END
+ SetOutdatedByID(_id int) 
+BEGIN UPDATE materials SET OUTDATED=1
+ WHERE ID=_id; 
+END
+ UpdateAmbientColor(_id int,_color int) 
+BEGIN
+	UPDATE materials SET AMBIENTCOLOR=_color WHERE ID=_id; 
+END
+ UpdateC(_id int,_c double) 
+BEGIN UPDATE materials SET C=_c WHERE ID=_id; 
+END
+ UpdateName(_id int,_name varchar(80)) 
+BEGIN UPDATE materials SET NAME=_name WHERE ID=_id; 
+END
+
+
+
+
+

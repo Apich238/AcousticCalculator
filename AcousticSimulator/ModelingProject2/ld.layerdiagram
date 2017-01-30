@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="6a94214c-3f91-4b08-9af5-c95fba272b00" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/LayerDesigner">
+  <layers>
+    <layer Id="003bd707-2b00-474b-bde6-825a70bb8179" name="Акустическая модель&#xD;&#xA;ModelLib">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="236104b5-b909-4bd2-8c96-e9463101cf06" direction="Forward">
+          <layerMoniker Id="5ee03658-1674-407d-99f5-ec35c63bb9a5" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <references>
+        <reference Id="1c8250f2-66c6-4e1a-b2a5-d3476707f06f" name="ModelLib">
+          <ArtifactNode Label="ModelLib" Category="CodeSchema_Project" Id="(Assembly=../ModelLib/ModelLib.csproj)">
+            <Category Ref="File" />
+          </ArtifactNode>
+          <ExpandedNode Id="(Assembly=ModelLib)" Label="ModelLib.dll" Category="CodeSchema_Assembly">
+            <Category Ref="FileSystem.Category.FileOfType.dll" />
+            <LinkCategory Ref="Produces" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="5ee03658-1674-407d-99f5-ec35c63bb9a5" name="База данных о материалах&#xD;&#xA;MaterialsDatabase">
+      <references>
+        <reference Id="0e44ad51-7e05-4e18-8366-a689328f89f6" name="MaterialsDatabase">
+          <ArtifactNode Label="MaterialsDatabase" Category="CodeSchema_Project" Id="(Assembly=../MaterialsDatabase/MaterialsDatabase.csproj)">
+            <Category Ref="File" />
+          </ArtifactNode>
+          <ExpandedNode Id="(Assembly=MaterialsDatabase)" Label="MaterialsDatabase.dll" Category="CodeSchema_Assembly">
+            <Category Ref="FileSystem.Category.FileOfType.dll" />
+            <LinkCategory Ref="Produces" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="ac6c4468-ccf0-4daa-87fe-c4d3455428ca" name="Уровень пользовательского интерфейса">
+      <childLayers>
+        <layer Id="9c0c20ce-9c5b-4d88-8f7e-e1d0757781ba" name="Видовой порт&#xD;&#xA;Viewport">
+          <dependencyToLayers>
+            <dependencyFromLayerToLayer Id="a56ccf83-9476-408c-8bf6-e0fbb8a0f26e" direction="Forward">
+              <layerMoniker Id="003bd707-2b00-474b-bde6-825a70bb8179" />
+            </dependencyFromLayerToLayer>
+          </dependencyToLayers>
+          <references>
+            <reference Id="e0282261-1c55-4f2e-ae80-c726e578bb17" name="Viewport">
+              <ArtifactNode Label="Viewport" Category="CodeSchema_Project" Id="(Assembly=../Viewport/Viewport.csproj)">
+                <Category Ref="File" />
+              </ArtifactNode>
+              <ExpandedNode Id="(Assembly=Viewport)" Label="Viewport.dll" Category="CodeSchema_Assembly">
+                <Category Ref="FileSystem.Category.FileOfType.dll" />
+                <LinkCategory Ref="Produces" />
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+            </reference>
+          </references>
+        </layer>
+        <layer Id="cec1a05b-3003-4f76-b674-8b5f069961e5" name="Редактор модели&#xD;&#xA;ModelEditor">
+          <dependencyToLayers>
+            <dependencyFromLayerToLayer Id="53fb0b1b-4467-438a-82b1-ba9acb902802" direction="Forward">
+              <layerMoniker Id="9c0c20ce-9c5b-4d88-8f7e-e1d0757781ba" />
+            </dependencyFromLayerToLayer>
+            <dependencyFromLayerToLayer Id="95dc4b7f-e798-4b2f-bfb2-cf51559e208f" direction="Forward">
+              <layerMoniker Id="003bd707-2b00-474b-bde6-825a70bb8179" />
+            </dependencyFromLayerToLayer>
+          </dependencyToLayers>
+          <references>
+            <reference Id="71a89d66-2748-4484-827f-197ec323e288" name="ModelEditor">
+              <ArtifactNode Label="ModelEditor" Category="CodeSchema_Project" Id="(Assembly=../ModelEditor/ModelEditor.csproj)">
+                <Category Ref="File" />
+              </ArtifactNode>
+              <ExpandedNode Id="(Assembly=ModelEditor)" Label="ModelEditor.exe" Category="CodeSchema_Assembly">
+                <Category Ref="FileSystem.Category.FileOfType.exe" />
+                <LinkCategory Ref="Produces" />
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+            </reference>
+          </references>
+        </layer>
+      </childLayers>
+    </layer>
+  </layers>
+</layerModel>

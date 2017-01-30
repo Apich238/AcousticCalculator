@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<options>
+  <host>localhost</host>
+  <port>3306</port>
+  <account>MatDBAdminExt</account>
+  <password>6$hjk#07hvsg#1f</password>
+</options>

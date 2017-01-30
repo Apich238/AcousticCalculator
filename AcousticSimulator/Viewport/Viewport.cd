@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Viewport.Angle">
+    <Position X="6.5" Y="6.25" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAIAAAAAAEQAAEBAAAACgAAAAAAAACA=</HashCode>
+      <FileName>Angle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Viewport.GraphicsOptions">
+    <Position X="12" Y="1.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAJAQAAAABAAAAIAAAAAiAAAACAAAQAAAAAAQAA=</HashCode>
+      <FileName>GraphicsOptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Viewport.ViewportControl">
+    <Position X="0.5" Y="0.5" Width="4.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="Viewport.ViewportControl.camera">
+        <Compartments>
+          <Compartment Name="Nested Types" Collapsed="false" />
+        </Compartments>
+        <NestedTypes>
+          <Enum Name="Viewport.ViewportControl.camera.destination" Collapsed="true">
+            <TypeIdentifier>
+              <NewMemberFileName>ViewportControl.cs</NewMemberFileName>
+            </TypeIdentifier>
+          </Enum>
+          <Enum Name="Viewport.ViewportControl.camera.polarrotdest" Collapsed="true">
+            <TypeIdentifier>
+              <NewMemberFileName>ViewportControl.cs</NewMemberFileName>
+            </TypeIdentifier>
+          </Enum>
+        </NestedTypes>
+        <TypeIdentifier>
+          <NewMemberFileName>ViewportControl.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="Viewport.ViewportControl.Position" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ViewportControl.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>BCDABWAAASoAABAOAADEAABiAAABABACSCFCQAAACiA=</HashCode>
+      <FileName>ViewportControl.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="OwnerList" />
+      <Property Name="FOV_h" />
+      <Property Name="FOV_y" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Viewport.ViewportList" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="0.5" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AGIAAEAAAAAAABAACgAABAQAAAAAAAAACABAEABTIAA=</HashCode>
+      <FileName>ViewportList.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

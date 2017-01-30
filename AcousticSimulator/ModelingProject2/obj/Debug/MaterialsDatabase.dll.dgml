@@ -1,0 +1,728 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="(@1)" Category="CodeSchema_Assembly" FilePath="$(a95afb62-c38a-49d8-96d3-dc6a830940f7.OutputPath)" Label="C:\Users\Алексей\Dropbox\priv\ИНСТИТУТ\Проект\AcousticSimulator\MaterialsDatabaseClientApplication\bin\Debug\MaterialsDatabaseClientApplication.exe">
+      <Category Ref="FileSystem.Category.FileOfType.exe" />
+    </Node>
+    <Node Id="(@2)" ConfigurationName="Debug|AnyCPU" FilePath="$(VsSolution)\ModelLib\ModelLib.csproj" Label="C:\Users\Алексей\Dropbox\priv\ИНСТИТУТ\Проект\AcousticSimulator\ModelLib\ModelLib.csproj" />
+    <Node Id="(@3)" ConfigurationName="Debug|AnyCPU" FilePath="$(VsSolution)\MaterialsDatabase\MaterialsDatabase.csproj" Label="C:\Users\Алексей\Dropbox\priv\ИНСТИТУТ\Проект\AcousticSimulator\MaterialsDatabase\MaterialsDatabase.csproj" />
+    <Node Id="(@4)" ConfigurationName="Debug|AnyCPU" FilePath="$(VsSolution)\MaterialsDatabaseClientApplication\MaterialsDatabaseEditor.csproj" Label="C:\Users\Алексей\Dropbox\priv\ИНСТИТУТ\Проект\AcousticSimulator\MaterialsDatabaseClientApplication\MaterialsDatabaseEditor.csproj" />
+    <Node Id="(@5)" ConfigurationName="Debug|AnyCPU" FilePath="$(VsSolution)\Viewport\Viewport.csproj" Label="C:\Users\Алексей\Dropbox\priv\ИНСТИТУТ\Проект\AcousticSimulator\Viewport\Viewport.csproj" />
+    <Node Id="(@6)" Category="CodeSchema_Assembly" FilePath="$(17b339b9-bec0-4ae5-bc18-1360d8870292.OutputPath)" Label="C:\Users\Алексей\Dropbox\priv\ИНСТИТУТ\Проект\AcousticSimulator\ModelLib\bin\Debug\ModelLib.dll">
+      <Category Ref="FileSystem.Category.FileOfType.dll" />
+    </Node>
+    <Node Id="@8" Category="CodeSchema_Assembly" CodeSchemaProperty_StrongName="MaterialsDatabase, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" FilePath="$(0bbfc0ff-f268-408a-8031-4b956249ab0d.OutputPath)" Label="MaterialsDatabase.dll">
+      <Category Ref="FileSystem.Category.FileOfType.dll" />
+    </Node>
+    <Node Id="(@9)" Category="CodeSchema_Assembly" FilePath="$(676e1ba4-3976-4bde-a752-afa7071e793a.OutputPath)" Label="C:\Users\Алексей\Dropbox\priv\ИНСТИТУТ\Проект\AcousticSimulator\Viewport\bin\Debug\Viewport.dll">
+      <Category Ref="FileSystem.Category.FileOfType.dll" />
+    </Node>
+    <Node Id="@11" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_StrongName="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Label="mscorlib.dll" />
+    <Node Id="(@12)" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_StrongName="System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Label="System.Data.dll" />
+    <Node Id="(@13)" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_StrongName="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" Label="System.Drawing.dll" />
+    <Node Id="(@14)" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_StrongName="MySql.Data, Version=6.9.7.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d" Label="MySql.Data.dll" />
+    <Node Id="(@15)" Category="CodeSchema_Assembly" CodeSchemaProperty_StrongName="System.Data.DataSetExtensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Label="System.Data.DataSetExtensions.dll" />
+    <Node Id="@18" Category="CodeSchema_Type" CodeSchemaProperty_IsPublic="True" Label="MatDBDict" />
+    <Node Id="@19" Category="CodeSchema_Namespace" Label="MaterialsDatabase" />
+    <Node Id="@20" Category="CodeSchema_Interface" CodeSchemaProperty_IsPublic="True" Label="IMatDBDict" />
+    <Node Id="@27" CodeSchemaProperty_IsGenericInstance="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsExternal="True" Label="IDictionary‎&lt;Int32‎, Material‎&gt;" />
+    <Node Id="@28" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsExternal="True" Label="IDictionary‎&lt;TKey‎, TValue‎&gt;" />
+    <Node Id="@29" Category="CodeSchema_Namespace" CodeSchemaProperty_IsExternal="True" Label="System" />
+    <Node Id="@30" Category="CodeSchema_Namespace" CodeSchemaProperty_IsExternal="True" Label="System.Collections" />
+    <Node Id="@31" Category="CodeSchema_Namespace" CodeSchemaProperty_IsExternal="True" Label="System.Collections.Generic" />
+    <Node Id="@26" Category="CodeSchema_Type" CodeSchemaProperty_IsPublic="True" Label="Material" />
+    <Node Id="@35" CodeSchemaProperty_IsGenericInstance="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsExternal="True" Label="ICollection‎&lt;KeyValuePair‎&lt;Int32‎, Material‎&gt;‎&gt;" />
+    <Node Id="@36" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsExternal="True" Label="ICollection‎&lt;T‎&gt;" />
+    <Node Id="@34" CodeSchemaProperty_IsGenericInstance="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsExternal="True" Label="KeyValuePair‎&lt;Int32‎, Material‎&gt;" />
+    <Node Id="@37" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsExternal="True" Label="KeyValuePair‎&lt;TKey‎, TValue‎&gt;" />
+    <Node Id="@38" CodeSchemaProperty_IsGenericInstance="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsExternal="True" Label="IEnumerable‎&lt;KeyValuePair‎&lt;Int32‎, Material‎&gt;‎&gt;" />
+    <Node Id="@39" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsExternal="True" Label="IEnumerable‎&lt;T‎&gt;" />
+    <Node Id="@40" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="Reload" />
+    <Node Id="@42" Category="CodeSchema_Type" CodeSchemaProperty_IsPublic="True" Label="MaterialsDBClient" />
+    <Node Id="@43" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="Reload" />
+    <Node Id="@44" Category="CodeSchema_Field" Label="cl" />
+    <Node Id="@46" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="Add" />
+    <Node Id="@47" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="AddMaterial" />
+    <Node Id="@49" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="ContainsKey" />
+    <Node Id="@50" Category="CodeSchema_Method" CodeSchemaProperty_IsSpecialName="True" CodeSchemaProperty_IsPublic="True" Label="get_Materials" />
+    <Node Id="@51" Category="CodeSchema_Method" CodeSchemaProperty_IsSpecialName="True" CodeSchemaProperty_IsPublic="True" Label="get_Keys" />
+    <Node Id="@53" CodeSchemaProperty_IsGenericInstance="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsExternal="True" Label="List‎&lt;Int32‎&gt;" />
+    <Node Id="@54" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsExternal="True" Label="List‎&lt;T‎&gt;" />
+    <Node Id="@56" CodeSchemaProperty_IsSpecialName="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsExternal="True" Label="List" />
+    <Node Id="@57" CodeSchemaProperty_IsSpecialName="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsExternal="True" Label="List" />
+    <Node Id="@58" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsExternal="True" Label="Add" />
+    <Node Id="@59" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsExternal="True" Label="Add" />
+    <Node Id="@60" CodeSchemaProperty_IsGenericInstance="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsExternal="True" Label="ICollection‎&lt;Int32‎&gt;" />
+    <Node Id="@61" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="Remove" />
+    <Node Id="@62" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="SetMaterialOutDated" />
+    <Node Id="@63" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="TryGetValue" />
+    <Node Id="@64" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="GetMaterialByID" />
+    <Node Id="@65" Category="CodeSchema_Method" CodeSchemaProperty_IsSpecialName="True" CodeSchemaProperty_IsPublic="True" Label="get_Values" />
+    <Node Id="@66" CodeSchemaProperty_IsGenericInstance="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsExternal="True" Label="List‎&lt;Material‎&gt;" />
+    <Node Id="@67" CodeSchemaProperty_IsSpecialName="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsExternal="True" Label="List" />
+    <Node Id="(@10 @21 Type=(Name=IEnumerable @33 @52))" CodeSchemaProperty_IsGenericInstance="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsExternal="True" Label="IEnumerable‎&lt;Int32‎&gt;" />
+    <Node Id="@68" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsExternal="True" Label="GetEnumerator" />
+    <Node Id="@69" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsExternal="True" Label="GetEnumerator" />
+    <Node Id="(@10 @21 Type=(Name=IEnumerator @33 @52))" CodeSchemaProperty_IsGenericInstance="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsExternal="True" Label="IEnumerator‎&lt;Int32‎&gt;" />
+    <Node Id="@70" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsExternal="True" Label="IEnumerator‎&lt;T‎&gt;" />
+    <Node Id="@71" CodeSchemaProperty_IsSpecialName="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsExternal="True" Label="get_Current" />
+    <Node Id="@72" CodeSchemaProperty_IsSpecialName="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsExternal="True" Label="get_Current" />
+    <Node Id="@73" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsExternal="True" Label="Add" />
+    <Node Id="@74" CodeSchemaProperty_IsGenericInstance="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsExternal="True" Label="ICollection‎&lt;Material‎&gt;" />
+    <Node Id="@75" Category="CodeSchema_Method" CodeSchemaProperty_IsSpecialName="True" CodeSchemaProperty_IsPublic="True" Label="get_Item" />
+    <Node Id="@76" Category="CodeSchema_Method" CodeSchemaProperty_IsSpecialName="True" CodeSchemaProperty_IsPublic="True" Label="set_Item" />
+    <Node Id="@77" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="UpdMaterial" />
+    <Node Id="@78" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="Add" />
+    <Node Id="@79" CodeSchemaProperty_IsSpecialName="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsExternal="True" Label="get_Value" />
+    <Node Id="@80" CodeSchemaProperty_IsSpecialName="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsExternal="True" Label="get_Value" />
+    <Node Id="@81" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="Clear" />
+    <Node Id="@82" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="RemoveOutdatedMaterials" />
+    <Node Id="@83" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="Contains" />
+    <Node Id="@84" CodeSchemaProperty_IsSpecialName="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsExternal="True" Label="get_Key" />
+    <Node Id="@85" CodeSchemaProperty_IsSpecialName="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsExternal="True" Label="get_Key" />
+    <Node Id="(@7 @16 @17 Member=(Name=CopyTo OverloadingParameters=[(@10 @21 Type=(Name=KeyValuePair`2 ArrayRank=1 ParentType=(Name=KeyValuePair @22 GenericArguments=[@24,@26]))),@24]))" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="CopyTo" />
+    <Node Id="@86" Category="CodeSchema_Method" CodeSchemaProperty_IsSpecialName="True" CodeSchemaProperty_IsPublic="True" Label="get_Count" />
+    <Node Id="@87" CodeSchemaProperty_IsSpecialName="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsExternal="True" Label="get_Count" />
+    <Node Id="@88" CodeSchemaProperty_IsSpecialName="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsExternal="True" Label="get_Count" />
+    <Node Id="@89" Category="CodeSchema_Method" CodeSchemaProperty_IsSpecialName="True" CodeSchemaProperty_IsPublic="True" Label="get_IsReadOnly" />
+    <Node Id="@90" Category="CodeSchema_Method" CodeSchemaProperty_IsSpecialName="True" CodeSchemaProperty_IsPublic="True" Label="get_UserType" />
+    <Node Id="@91" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="Remove" />
+    <Node Id="@92" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="GetEnumerator" />
+    <Node Id="@93" CodeSchemaProperty_IsGenericInstance="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsExternal="True" Label="IEnumerator‎&lt;KeyValuePair‎&lt;Int32‎, Material‎&gt;‎&gt;" />
+    <Node Id="(@7 @16 @17 Member=System.Collections.IEnumerable.GetEnumerator)" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" Label="System‎.Collections‎.IEnumerable‎.GetEnumerator" />
+    <Node Id="@94" Category="CodeSchema_Method" CodeSchemaProperty_IsSpecialName="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsConstructor="True" Label="MatDBDict" />
+    <Node Id="@95" Category="CodeSchema_Method" CodeSchemaProperty_IsSpecialName="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsConstructor="True" Label="MaterialsDBClient" />
+    <Node Id="@96" Category="CodeSchema_Property" Label="Keys" />
+    <Node Id="@97" Category="CodeSchema_Property" Label="Values" />
+    <Node Id="@98" Category="CodeSchema_Property" Label="Item" />
+    <Node Id="@99" Category="CodeSchema_Property" Label="Count" />
+    <Node Id="@100" Category="CodeSchema_Property" Label="IsReadOnly" />
+    <Node Id="@101" Category="CodeSchema_Method" CodeSchemaProperty_IsSpecialName="True" CodeSchemaProperty_IsPublic="True" Label="get_gAmbientColor" />
+    <Node Id="@102" Category="CodeSchema_Field" Label="gAmbientColorInd" />
+    <Node Id="@103" Category="CodeSchema_Method" CodeSchemaProperty_IsSpecialName="True" CodeSchemaProperty_IsPublic="True" Label="set_gAmbientColor" />
+    <Node Id="@104" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="Equals" />
+    <Node Id="@105" Category="CodeSchema_Field" Label="reflection" />
+    <Node Id="@106" Category="CodeSchema_Field" Label="absorbparam" />
+    <Node Id="@107" Category="CodeSchema_Field" Label="Name" />
+    <Node Id="@108" Category="CodeSchema_Method" CodeSchemaProperty_IsSpecialName="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsConstructor="True" Label="Material" />
+    <Node Id="@109" Category="CodeSchema_Property" Label="gAmbientColor" />
+    <Node Id="@111" Category="CodeSchema_Type" CodeSchemaProperty_IsPublic="True" Label="MProps" />
+    <Node Id="(@7 @16 @110 Member=value__)" Category="CodeSchema_Field" CodeSchemaProperty_IsSpecialName="True" Label="value__" />
+    <Node Id="@112" Category="CodeSchema_Field" Label="NAME" />
+    <Node Id="@113" Category="CodeSchema_Field" Label="AMBIENTCOLOR" />
+    <Node Id="@114" Category="CodeSchema_Field" Label="OUTDATED" />
+    <Node Id="@115" Category="CodeSchema_Field" Label="REFLECTION" />
+    <Node Id="@116" Category="CodeSchema_Field" Label="ABSORPTPARAM" />
+    <Node Id="@117" Category="CodeSchema_Type" CodeSchemaProperty_IsPublic="True" Label="DBConnectionException" />
+    <Node Id="@118" Category="CodeSchema_Method" CodeSchemaProperty_IsSpecialName="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsConstructor="True" Label="DBConnectionException" />
+    <Node Id="@119" Category="CodeSchema_Type" CodeSchemaProperty_IsPublic="True" Label="ServerException" />
+    <Node Id="@120" Category="CodeSchema_Method" CodeSchemaProperty_IsSpecialName="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsConstructor="True" Label="ServerException" />
+    <Node Id="@121" Category="CodeSchema_Type" CodeSchemaProperty_IsPublic="True" Label="DatabaseNotFoundException" />
+    <Node Id="@122" Category="CodeSchema_Method" CodeSchemaProperty_IsSpecialName="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsConstructor="True" Label="DatabaseNotFoundException" />
+    <Node Id="@123" Category="CodeSchema_Type" CodeSchemaProperty_IsPublic="True" Label="AuthenticationException" />
+    <Node Id="@124" Category="CodeSchema_Method" CodeSchemaProperty_IsSpecialName="True" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsConstructor="True" Label="AuthenticationException" />
+    <Node Id="@125" Category="CodeSchema_Method" CodeSchemaProperty_IsPrivate="True" Label="Authorisate" />
+    <Node Id="@126" Category="CodeSchema_Field" Label="con" />
+    <Node Id="@127" Category="CodeSchema_Field" Label="table" />
+    <Node Id="@128" Category="CodeSchema_Method" CodeSchemaProperty_IsSpecialName="True" CodeSchemaProperty_IsPublic="True" Label="get_ServerName" />
+    <Node Id="@129" Category="CodeSchema_Method" CodeSchemaProperty_IsSpecialName="True" CodeSchemaProperty_IsPublic="True" Label="get_ServerPort" />
+    <Node Id="@130" Category="CodeSchema_Method" CodeSchemaProperty_IsSpecialName="True" CodeSchemaProperty_IsPublic="True" Label="get_UserName" />
+    <Node Id="@132" Category="CodeSchema_Type" CodeSchemaProperty_IsPublic="True" Label="MaterialsDBClient‎.UserMode" />
+    <Node Id="@133" Category="CodeSchema_Field" Label="adapter" />
+    <Node Id="@134" Category="CodeSchema_Method" CodeSchemaProperty_IsPublic="True" Label="UpdMaterialProp" />
+    <Node Id="@135" Category="CodeSchema_Property" Label="Materials" />
+    <Node Id="@136" Category="CodeSchema_Property" Label="ServerName" />
+    <Node Id="@137" Category="CodeSchema_Property" Label="ServerPort" />
+    <Node Id="@138" Category="CodeSchema_Property" Label="UserName" />
+    <Node Id="@139" Category="CodeSchema_Property" Label="UserType" />
+    <Node Id="(@7 @16 @131 Member=value__)" Category="CodeSchema_Field" CodeSchemaProperty_IsSpecialName="True" Label="value__" />
+    <Node Id="@140" Category="CodeSchema_Field" Label="Viewer" />
+    <Node Id="@141" Category="CodeSchema_Field" Label="Editor" />
+    <Node Id="@142" Category="CodeSchema_Field" Label="Corrector" />
+  </Nodes>
+  <Links>
+    <Link Source="(@2)" Target="(@6)" Category="Produces" />
+    <Link Source="(@3)" Target="@8" Category="Produces" />
+    <Link Source="(@4)" Target="(@1)" Category="Produces" />
+    <Link Source="(@5)" Target="(@9)" Category="Produces" />
+    <Link Source="@8" Target="@11" Category="References" />
+    <Link Source="@8" Target="(@12)" Category="References" />
+    <Link Source="@8" Target="(@13)" Category="References" />
+    <Link Source="@8" Target="(@14)" Category="References" />
+    <Link Source="@8" Target="(@15)" Category="References" />
+    <Link Source="@8" Target="@19" Category="CodeSchema_NamespaceReference" />
+    <Link Source="@19" Target="@18" Category="Contains" />
+    <Link Source="@8" Target="@18" Category="Contains" />
+    <Link Source="@18" Target="@20" Category="Implements" />
+    <Link Source="@11" Target="@29" Category="CodeSchema_NamespaceReference" />
+    <Link Source="@29" Target="@30" Category="Contains" />
+    <Link Source="@11" Target="@30" Category="CodeSchema_NamespaceReference" />
+    <Link Source="@30" Target="@31" Category="Contains" />
+    <Link Source="@11" Target="@31" Category="CodeSchema_NamespaceReference" />
+    <Link Source="@31" Target="@28" Category="Contains" />
+    <Link Source="@11" Target="@28" Category="Contains" />
+    <Link Source="@27" Target="@26" Category="CodeSchema_GenericParameterLink" />
+    <Link Source="@18" Target="@27" Category="Implements" />
+    <Link Source="@31" Target="@36" Category="Contains" />
+    <Link Source="@11" Target="@36" Category="Contains" />
+    <Link Source="@62" Target="@132" Category="References" Label="Ссылки" />
+    <Link Source="@31" Target="@37" Category="Contains" />
+    <Link Source="@11" Target="@37" Category="Contains" />
+    <Link Source="@134" Target="@132" Category="References" Label="Ссылки" />
+    <Link Source="@34" Target="@26" Category="CodeSchema_GenericParameterLink" />
+    <Link Source="@35" Target="@34" Category="CodeSchema_GenericParameterLink" />
+    <Link Source="@18" Target="@35" Category="Implements" />
+    <Link Source="@31" Target="@39" Category="Contains" />
+    <Link Source="@11" Target="@39" Category="Contains" />
+    <Link Source="@82" Target="@132" Category="References" Label="Ссылки" />
+    <Link Source="@38" Target="@34" Category="CodeSchema_GenericParameterLink" />
+    <Link Source="@18" Target="@38" Category="Implements" />
+    <Link Source="@18" Target="@40" Category="Contains" />
+    <Link Source="@42" Target="@43" Category="Contains" />
+    <Link Source="@40" Target="@43" Category="CodeSchema_Calls" />
+    <Link Source="@18" Target="@44" Category="Contains" />
+    <Link Source="@44" Target="@42" Category="References" />
+    <Link Source="@40" Target="@44" Category="CodeSchema_FieldReference" />
+    <Link Source="@46" Target="@26" Category="ParameterReferences" />
+    <Link Source="@18" Target="@46" Category="Contains" />
+    <Link Source="@47" Target="@26" Category="ParameterReferences" />
+    <Link Source="@42" Target="@47" Category="Contains" />
+    <Link Source="@46" Target="@47" Category="CodeSchema_Calls" />
+    <Link Source="@46" Target="@44" Category="CodeSchema_FieldReference" />
+    <Link Source="@18" Target="@49" Category="Contains" />
+    <Link Source="@42" Target="@50" Category="Contains" />
+    <Link Source="@49" Target="@50" Category="CodeSchema_Calls" />
+    <Link Source="@49" Target="@44" Category="CodeSchema_FieldReference" />
+    <Link Source="@18" Target="@51" Category="Contains" />
+    <Link Source="@31" Target="@54" Category="Contains" />
+    <Link Source="@11" Target="@54" Category="Contains" />
+    <Link Source="@47" Target="@132" Category="References" Label="Ссылки" />
+    <Link Source="@54" Target="@57" Category="Contains" />
+    <Link Source="@89" Target="@132" Category="References" Label="Ссылки" />
+    <Link Source="@53" Target="@56" Category="Contains" />
+    <Link Source="@51" Target="@56" Category="CodeSchema_Calls" />
+    <Link Source="@51" Target="@50" Category="CodeSchema_Calls" />
+    <Link Source="@54" Target="@59" Category="Contains" />
+    <Link Source="@86" Target="@60" Category="References" Label="Ссылки" />
+    <Link Source="@53" Target="@58" Category="Contains" />
+    <Link Source="@51" Target="@58" Category="CodeSchema_Calls" />
+    <Link Source="@51" Target="@44" Category="CodeSchema_FieldReference" />
+    <Link Source="@65" Target="@60" Category="References" Label="Ссылки" />
+    <Link Source="@51" Target="@60" Category="CodeSchema_ReturnTypeLink" />
+    <Link Source="@18" Target="@61" Category="Contains" />
+    <Link Source="@42" Target="@62" Category="Contains" />
+    <Link Source="@61" Target="@62" Category="CodeSchema_Calls" />
+    <Link Source="@61" Target="@44" Category="CodeSchema_FieldReference" />
+    <Link Source="@63" Target="@26" Category="ParameterReferences">
+      <Category Ref="References" />
+    </Link>
+    <Link Source="@18" Target="@63" Category="Contains" />
+    <Link Source="@42" Target="@64" Category="Contains" />
+    <Link Source="@63" Target="@64" Category="CodeSchema_Calls" />
+    <Link Source="@63" Target="@44" Category="CodeSchema_FieldReference" />
+    <Link Source="@18" Target="@65" Category="Contains" />
+    <Link Source="@94" Target="@42" Category="References" Label="Ссылки" />
+    <Link Source="@66" Target="@26" Category="CodeSchema_GenericParameterLink" />
+    <Link Source="@89" Target="@42" Category="References" Label="Ссылки" />
+    <Link Source="@66" Target="@67" Category="Contains" />
+    <Link Source="@65" Target="@67" Category="CodeSchema_Calls" />
+    <Link Source="@65" Target="@51" Category="CodeSchema_Calls" />
+    <Link Source="@81" Target="@42" Category="References" Label="Ссылки" />
+    <Link Source="@39" Target="@69" Category="Contains" />
+    <Link Source="@78" Target="@42" Category="References" Label="Ссылки" />
+    <Link Source="(@10 @21 Type=(Name=IEnumerable @33 @52))" Target="@68" Category="Contains" />
+    <Link Source="@65" Target="@68" Category="CodeSchema_Calls" />
+    <Link Source="@31" Target="@70" Category="Contains" />
+    <Link Source="@11" Target="@70" Category="Contains" />
+    <Link Source="@76" Target="@42" Category="References" Label="Ссылки" />
+    <Link Source="@70" Target="@72" Category="Contains" />
+    <Link Source="@65" Target="@42" Category="References" Label="Ссылки" />
+    <Link Source="(@10 @21 Type=(Name=IEnumerator @33 @52))" Target="@71" Category="Contains" />
+    <Link Source="@65" Target="@71" Category="CodeSchema_Calls" />
+    <Link Source="@65" Target="@64" Category="CodeSchema_Calls" />
+    <Link Source="@73" Target="@26" Category="ParameterReferences" />
+    <Link Source="@63" Target="@42" Category="References" Label="Ссылки" />
+    <Link Source="@66" Target="@73" Category="Contains" />
+    <Link Source="@65" Target="@73" Category="CodeSchema_Calls" />
+    <Link Source="@65" Target="@44" Category="CodeSchema_FieldReference" />
+    <Link Source="@65" Target="@66" Category="References" />
+    <Link Source="@61" Target="@42" Category="References" Label="Ссылки" />
+    <Link Source="@74" Target="@26" Category="CodeSchema_GenericParameterLink" />
+    <Link Source="@65" Target="@74" Category="References">
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@18" Target="@75" Category="Contains" />
+    <Link Source="@75" Target="@63" Category="CodeSchema_Calls" />
+    <Link Source="@75" Target="@26" Category="References">
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@76" Target="@26" Category="ParameterReferences" />
+    <Link Source="@18" Target="@76" Category="Contains" />
+    <Link Source="@76" Target="@49" Category="CodeSchema_Calls" />
+    <Link Source="@77" Target="@26" Category="ParameterReferences">
+      <Category Ref="References" />
+    </Link>
+    <Link Source="@42" Target="@77" Category="Contains" />
+    <Link Source="@76" Target="@77" Category="CodeSchema_Calls" />
+    <Link Source="@76" Target="@44" Category="CodeSchema_FieldReference" />
+    <Link Source="@78" Target="@34" Category="ParameterReferences" />
+    <Link Source="@18" Target="@78" Category="Contains" />
+    <Link Source="@37" Target="@80" Category="Contains" />
+    <Link Source="@51" Target="@42" Category="References" Label="Ссылки" />
+    <Link Source="@34" Target="@79" Category="Contains" />
+    <Link Source="@78" Target="@79" Category="CodeSchema_Calls" />
+    <Link Source="@78" Target="@47" Category="CodeSchema_Calls" />
+    <Link Source="@78" Target="@44" Category="CodeSchema_FieldReference" />
+    <Link Source="@18" Target="@81" Category="Contains" />
+    <Link Source="@42" Target="@82" Category="Contains" />
+    <Link Source="@81" Target="@82" Category="CodeSchema_Calls" />
+    <Link Source="@81" Target="@44" Category="CodeSchema_FieldReference" />
+    <Link Source="@83" Target="@34" Category="ParameterReferences" />
+    <Link Source="@18" Target="@83" Category="Contains" />
+    <Link Source="@37" Target="@85" Category="Contains" />
+    <Link Source="@49" Target="@42" Category="References" Label="Ссылки" />
+    <Link Source="@34" Target="@84" Category="Contains" />
+    <Link Source="@83" Target="@84" Category="CodeSchema_Calls" />
+    <Link Source="@83" Target="@49" Category="CodeSchema_Calls" />
+    <Link Source="@83" Target="@75" Category="CodeSchema_Calls" />
+    <Link Source="@83" Target="@79" Category="CodeSchema_Calls" />
+    <Link Source="@18" Target="(@7 @16 @17 Member=(Name=CopyTo OverloadingParameters=[(@10 @21 Type=(Name=KeyValuePair`2 ArrayRank=1 ParentType=(Name=KeyValuePair @22 GenericArguments=[@24,@26]))),@24]))" Category="Contains" />
+    <Link Source="@18" Target="@86" Category="Contains" />
+    <Link Source="@86" Target="@51" Category="CodeSchema_Calls" />
+    <Link Source="@36" Target="@88" Category="Contains" />
+    <Link Source="@46" Target="@42" Category="References" Label="Ссылки" />
+    <Link Source="@60" Target="@87" Category="Contains" />
+    <Link Source="@86" Target="@87" Category="CodeSchema_Calls" />
+    <Link Source="@18" Target="@89" Category="Contains" />
+    <Link Source="@42" Target="@90" Category="Contains" />
+    <Link Source="@89" Target="@90" Category="CodeSchema_Calls" />
+    <Link Source="@89" Target="@44" Category="CodeSchema_FieldReference" />
+    <Link Source="@91" Target="@34" Category="ParameterReferences" />
+    <Link Source="@18" Target="@91" Category="Contains" />
+    <Link Source="@91" Target="@84" Category="CodeSchema_Calls" />
+    <Link Source="@91" Target="@61" Category="CodeSchema_Calls" />
+    <Link Source="@18" Target="@92" Category="Contains" />
+    <Link Source="@40" Target="@42" Category="References" Label="Ссылки" />
+    <Link Source="@93" Target="@34" Category="CodeSchema_GenericParameterLink" />
+    <Link Source="@92" Target="@93" Category="CodeSchema_ReturnTypeLink" />
+    <Link Source="@18" Target="(@7 @16 @17 Member=System.Collections.IEnumerable.GetEnumerator)" Category="Contains" />
+    <Link Source="@18" Target="@94" Category="Contains" />
+    <Link Source="@42" Target="@95" Category="Contains" />
+    <Link Source="@94" Target="@95" Category="CodeSchema_Calls" />
+    <Link Source="@94" Target="@43" Category="CodeSchema_Calls" />
+    <Link Source="@94" Target="@44" Category="CodeSchema_FieldReference" />
+    <Link Source="@18" Target="@96" Category="Contains" />
+    <Link Source="@96" Target="@51" Category="Contains" />
+    <Link Source="@18" Target="@97" Category="Contains" />
+    <Link Source="@97" Target="@65" Category="Contains" />
+    <Link Source="@18" Target="@98" Category="Contains" />
+    <Link Source="@98" Target="@75" Category="Contains" />
+    <Link Source="@98" Target="@76" Category="Contains" />
+    <Link Source="@18" Target="@99" Category="Contains" />
+    <Link Source="@99" Target="@86" Category="Contains" />
+    <Link Source="@18" Target="@100" Category="Contains" />
+    <Link Source="@100" Target="@89" Category="Contains" />
+    <Link Source="@19" Target="@20" Category="Contains" />
+    <Link Source="@8" Target="@20" Category="Contains" />
+    <Link Source="@20" Target="@27" Category="Implements" />
+    <Link Source="@20" Target="@35" Category="Implements" />
+    <Link Source="@20" Target="@38" Category="Implements" />
+    <Link Source="@19" Target="@26" Category="Contains" />
+    <Link Source="@8" Target="@26" Category="Contains" />
+    <Link Source="@26" Target="@101" Category="Contains" />
+    <Link Source="@26" Target="@102" Category="Contains" />
+    <Link Source="@101" Target="@102" Category="CodeSchema_FieldReference" />
+    <Link Source="@26" Target="@103" Category="Contains" />
+    <Link Source="@103" Target="@102" Category="CodeSchema_FieldReference" />
+    <Link Source="@26" Target="@104" Category="Contains" />
+    <Link Source="@104" Target="@26" Category="References" />
+    <Link Source="@26" Target="@105" Category="Contains" />
+    <Link Source="@104" Target="@105" Category="CodeSchema_FieldReference" />
+    <Link Source="@26" Target="@106" Category="Contains" />
+    <Link Source="@104" Target="@106" Category="CodeSchema_FieldReference" />
+    <Link Source="@104" Target="@102" Category="CodeSchema_FieldReference" />
+    <Link Source="@26" Target="@107" Category="Contains" />
+    <Link Source="@104" Target="@107" Category="CodeSchema_FieldReference" />
+    <Link Source="@26" Target="@108" Category="Contains" />
+    <Link Source="@26" Target="@109" Category="Contains" />
+    <Link Source="@109" Target="@101" Category="Contains" />
+    <Link Source="@109" Target="@103" Category="Contains" />
+    <Link Source="@19" Target="@111" Category="Contains" />
+    <Link Source="@8" Target="@111" Category="Contains" />
+    <Link Source="@111" Target="(@7 @16 @110 Member=value__)" Category="Contains" />
+    <Link Source="@111" Target="@112" Category="Contains" />
+    <Link Source="@112" Target="@111" Category="References" />
+    <Link Source="@111" Target="@113" Category="Contains" />
+    <Link Source="@113" Target="@111" Category="References" />
+    <Link Source="@111" Target="@114" Category="Contains" />
+    <Link Source="@114" Target="@111" Category="References" />
+    <Link Source="@111" Target="@115" Category="Contains" />
+    <Link Source="@115" Target="@111" Category="References" />
+    <Link Source="@111" Target="@116" Category="Contains" />
+    <Link Source="@116" Target="@111" Category="References" />
+    <Link Source="@19" Target="@117" Category="Contains" />
+    <Link Source="@8" Target="@117" Category="Contains" />
+    <Link Source="@117" Target="@118" Category="Contains" />
+    <Link Source="@19" Target="@119" Category="Contains" />
+    <Link Source="@8" Target="@119" Category="Contains" />
+    <Link Source="@119" Target="@117" Category="InheritsFrom" />
+    <Link Source="@119" Target="@120" Category="Contains" />
+    <Link Source="@120" Target="@118" Category="CodeSchema_Calls" />
+    <Link Source="@19" Target="@121" Category="Contains" />
+    <Link Source="@8" Target="@121" Category="Contains" />
+    <Link Source="@121" Target="@117" Category="InheritsFrom" />
+    <Link Source="@121" Target="@122" Category="Contains" />
+    <Link Source="@122" Target="@118" Category="CodeSchema_Calls" />
+    <Link Source="@19" Target="@123" Category="Contains" />
+    <Link Source="@8" Target="@123" Category="Contains" />
+    <Link Source="@123" Target="@117" Category="InheritsFrom" />
+    <Link Source="@123" Target="@124" Category="Contains" />
+    <Link Source="@124" Target="@118" Category="CodeSchema_Calls" />
+    <Link Source="@19" Target="@42" Category="Contains" />
+    <Link Source="@8" Target="@42" Category="Contains" />
+    <Link Source="@42" Target="@125" Category="Contains" />
+    <Link Source="@42" Target="@126" Category="Contains" />
+    <Link Source="@125" Target="@126" Category="CodeSchema_FieldReference" />
+    <Link Source="@42" Target="@127" Category="Contains" />
+    <Link Source="@50" Target="@127" Category="CodeSchema_FieldReference" />
+    <Link Source="@64" Target="@108" Category="CodeSchema_Calls" />
+    <Link Source="@64" Target="@50" Category="CodeSchema_Calls" />
+    <Link Source="@64" Target="@107" Category="CodeSchema_FieldReference" />
+    <Link Source="@64" Target="@102" Category="CodeSchema_FieldReference" />
+    <Link Source="@64" Target="@105" Category="CodeSchema_FieldReference" />
+    <Link Source="@64" Target="@106" Category="CodeSchema_FieldReference" />
+    <Link Source="@64" Target="@26" Category="References">
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@42" Target="@128" Category="Contains" />
+    <Link Source="@128" Target="@126" Category="CodeSchema_FieldReference" />
+    <Link Source="@42" Target="@129" Category="Contains" />
+    <Link Source="@129" Target="@126" Category="CodeSchema_FieldReference" />
+    <Link Source="@42" Target="@130" Category="Contains" />
+    <Link Source="@130" Target="@126" Category="CodeSchema_FieldReference" />
+    <Link Source="@90" Target="@130" Category="CodeSchema_Calls" />
+    <Link Source="@90" Target="@132" Category="References">
+      <Category Ref="CodeSchema_ReturnTypeLink" />
+    </Link>
+    <Link Source="@43" Target="@127" Category="CodeSchema_FieldReference" />
+    <Link Source="@42" Target="@133" Category="Contains" />
+    <Link Source="@43" Target="@133" Category="CodeSchema_FieldReference" />
+    <Link Source="@47" Target="@90" Category="CodeSchema_Calls" />
+    <Link Source="@47" Target="@130" Category="CodeSchema_Calls" />
+    <Link Source="@47" Target="@43" Category="CodeSchema_Calls" />
+    <Link Source="@47" Target="@126" Category="CodeSchema_FieldReference" />
+    <Link Source="@47" Target="@107" Category="CodeSchema_FieldReference" />
+    <Link Source="@47" Target="@102" Category="CodeSchema_FieldReference" />
+    <Link Source="@47" Target="@105" Category="CodeSchema_FieldReference" />
+    <Link Source="@47" Target="@106" Category="CodeSchema_FieldReference" />
+    <Link Source="@82" Target="@90" Category="CodeSchema_Calls" />
+    <Link Source="@82" Target="@130" Category="CodeSchema_Calls" />
+    <Link Source="@82" Target="@43" Category="CodeSchema_Calls" />
+    <Link Source="@82" Target="@126" Category="CodeSchema_FieldReference" />
+    <Link Source="@134" Target="@111" Category="ParameterReferences">
+      <Category Ref="References" />
+    </Link>
+    <Link Source="@42" Target="@134" Category="Contains" />
+    <Link Source="@134" Target="@90" Category="CodeSchema_Calls" />
+    <Link Source="@134" Target="@130" Category="CodeSchema_Calls" />
+    <Link Source="@134" Target="@62" Category="CodeSchema_Calls" />
+    <Link Source="@134" Target="@43" Category="CodeSchema_Calls" />
+    <Link Source="@134" Target="@126" Category="CodeSchema_FieldReference" />
+    <Link Source="@77" Target="@43" Category="CodeSchema_Calls" />
+    <Link Source="@77" Target="@64" Category="CodeSchema_Calls" />
+    <Link Source="@77" Target="@134" Category="CodeSchema_Calls" />
+    <Link Source="@77" Target="@107" Category="CodeSchema_FieldReference" />
+    <Link Source="@77" Target="@102" Category="CodeSchema_FieldReference" />
+    <Link Source="@77" Target="@105" Category="CodeSchema_FieldReference" />
+    <Link Source="@77" Target="@106" Category="CodeSchema_FieldReference" />
+    <Link Source="@62" Target="@90" Category="CodeSchema_Calls" />
+    <Link Source="@62" Target="@130" Category="CodeSchema_Calls" />
+    <Link Source="@62" Target="@43" Category="CodeSchema_Calls" />
+    <Link Source="@62" Target="@126" Category="CodeSchema_FieldReference" />
+    <Link Source="@95" Target="@125" Category="CodeSchema_Calls" />
+    <Link Source="@95" Target="@120" Category="CodeSchema_Calls" />
+    <Link Source="@95" Target="@122" Category="CodeSchema_Calls" />
+    <Link Source="@95" Target="@124" Category="CodeSchema_Calls" />
+    <Link Source="@95" Target="@43" Category="CodeSchema_Calls" />
+    <Link Source="@95" Target="@126" Category="CodeSchema_FieldReference" />
+    <Link Source="@95" Target="@133" Category="CodeSchema_FieldReference" />
+    <Link Source="@95" Target="@127" Category="CodeSchema_FieldReference" />
+    <Link Source="@42" Target="@135" Category="Contains" />
+    <Link Source="@135" Target="@50" Category="Contains" />
+    <Link Source="@42" Target="@136" Category="Contains" />
+    <Link Source="@136" Target="@128" Category="Contains" />
+    <Link Source="@42" Target="@137" Category="Contains" />
+    <Link Source="@137" Target="@129" Category="Contains" />
+    <Link Source="@42" Target="@138" Category="Contains" />
+    <Link Source="@138" Target="@130" Category="Contains" />
+    <Link Source="@42" Target="@139" Category="Contains" />
+    <Link Source="@139" Target="@90" Category="Contains" />
+    <Link Source="@19" Target="@132" Category="Contains" />
+    <Link Source="@8" Target="@132" Category="Contains" />
+    <Link Source="@42" Target="@132" Category="Contains" />
+    <Link Source="@132" Target="(@7 @16 @131 Member=value__)" Category="Contains" />
+    <Link Source="@132" Target="@140" Category="Contains" />
+    <Link Source="@140" Target="@132" Category="References" />
+    <Link Source="@132" Target="@141" Category="Contains" />
+    <Link Source="@141" Target="@132" Category="References" />
+    <Link Source="@132" Target="@142" Category="Contains" />
+    <Link Source="@142" Target="@132" Category="References" />
+    <Link Source="@18" Target="@26" Category="ReferencesGenericParameter" />
+    <Link Source="@20" Target="@26" Category="ReferencesGenericParameter" />
+    <Link Source="@78" Target="@26" Category="ReferencesGenericParameter" />
+    <Link Source="@83" Target="@26" Category="ReferencesGenericParameter">
+      <Category Ref="References" />
+    </Link>
+    <Link Source="@91" Target="@26" Category="ReferencesGenericParameter" />
+    <Link Source="@18" Target="@34" Category="ReferencesGenericParameter" />
+    <Link Source="@20" Target="@34" Category="ReferencesGenericParameter" />
+    <Link Source="@65" Target="@26" Category="ReferencesGenericParameter">
+      <Category Ref="References" />
+    </Link>
+    <Link Source="@92" Target="@34" Category="ReferencesGenericParameter" />
+    <Link Source="@92" Target="@26" Category="ReferencesGenericParameter" />
+    <Link Source="@18" Target="@28" Category="ReferencesGenericType" />
+    <Link Source="@20" Target="@28" Category="ReferencesGenericType" />
+    <Link Source="@18" Target="@36" Category="ReferencesGenericType" />
+    <Link Source="@20" Target="@36" Category="ReferencesGenericType" />
+    <Link Source="@78" Target="@37" Category="ReferencesGenericType" />
+    <Link Source="@83" Target="@37" Category="ReferencesGenericType" />
+    <Link Source="@91" Target="@37" Category="ReferencesGenericType" />
+    <Link Source="@18" Target="@37" Category="ReferencesGenericType" />
+    <Link Source="@20" Target="@37" Category="ReferencesGenericType" />
+    <Link Source="@92" Target="@37" Category="ReferencesGenericType" />
+    <Link Source="@18" Target="@39" Category="ReferencesGenericType" />
+    <Link Source="@20" Target="@39" Category="ReferencesGenericType" />
+    <Link Source="@51" Target="@54" Category="ReferencesGenericType" />
+    <Link Source="@51" Target="@57" Category="ReferencesGenericType" />
+    <Link Source="@51" Target="@59" Category="ReferencesGenericType" />
+    <Link Source="@51" Target="@36" Category="ReferencesGenericType" />
+    <Link Source="@86" Target="@36" Category="ReferencesGenericType" />
+    <Link Source="@65" Target="@54" Category="ReferencesGenericType" />
+    <Link Source="@65" Target="@57" Category="ReferencesGenericType" />
+    <Link Source="@65" Target="@39" Category="ReferencesGenericType" />
+    <Link Source="@65" Target="@69" Category="ReferencesGenericType" />
+    <Link Source="@65" Target="@70" Category="ReferencesGenericType" />
+    <Link Source="@65" Target="@72" Category="ReferencesGenericType" />
+    <Link Source="@65" Target="@59" Category="ReferencesGenericType" />
+    <Link Source="@65" Target="@36" Category="ReferencesGenericType" />
+    <Link Source="@78" Target="@80" Category="ReferencesGenericType" />
+    <Link Source="@83" Target="@80" Category="ReferencesGenericType" />
+    <Link Source="@83" Target="@85" Category="ReferencesGenericType" />
+    <Link Source="@91" Target="@85" Category="ReferencesGenericType" />
+    <Link Source="@86" Target="@88" Category="ReferencesGenericType" />
+    <Link Source="@92" Target="@70" Category="ReferencesGenericType" />
+  </Links>
+  <Categories>
+    <Category Id="CodeSchema_Assembly" Label="Сборка" BasedOn="File" NavigationActionLabel="Сборки" Icon="CodeSchema_Assembly" DefaultAction="Microsoft.Contains" CanBeDataDriven="True" />
+    <Category Id="CodeSchema_Calls" Label="Вызовы" IncomingActionLabel="Вызывается" OutgoingActionLabel="Вызовы" CanLinkedNodesBeDataDriven="True" CanBeDataDriven="True" />
+    <Category Id="CodeSchema_Field" Label="Поле" BasedOn="CodeSchema_Member" CanBeDataDriven="True" NavigationActionLabel="Поля" DefaultAction="Microsoft.Contains" />
+    <Category Id="CodeSchema_FieldReference" Label="Ссылка на поле" CanLinkedNodesBeDataDriven="True" CanBeDataDriven="True" IncomingActionLabel="Ссылается" OutgoingActionLabel="Ссылается на поля" />
+    <Category Id="CodeSchema_GenericParameterLink" Label="Универсальный параметр" CanLinkedNodesBeDataDriven="True" CanBeDataDriven="True" IncomingActionLabel="Универсальные параметры" OutgoingActionLabel="Универсальные параметры" />
+    <Category Id="CodeSchema_Interface" Label="Интерфейс" BasedOn="CodeSchema_Type" CanBeDataDriven="True" NavigationActionLabel="Интерфейсы" DefaultAction="Node:Both:CodeSchema_Member" />
+    <Category Id="CodeSchema_Member" Label="Член" CanBeDataDriven="True" NavigationActionLabel="Члены" DefaultAction="Microsoft.Contains" />
+    <Category Id="CodeSchema_Method" Label="Метод" BasedOn="CodeSchema_Member" CanBeDataDriven="True" NavigationActionLabel="Методы" DefaultAction="Link:Forward:CodeSchema_Calls" />
+    <Category Id="CodeSchema_Namespace" Label="Пространство имен" CanBeDataDriven="True" NavigationActionLabel="Пространства имен" DefaultAction="Node:Both:CodeSchema_Type" />
+    <Category Id="CodeSchema_NamespaceReference" Label="Ссылка на пространство имен" CanLinkedNodesBeDataDriven="True" CanBeDataDriven="True" IncomingActionLabel="Источник ссылки на пространство имен" OutgoingActionLabel="Пространства имен, на которые указывается ссылка" />
+    <Category Id="CodeSchema_Property" Label="Свойство" BasedOn="CodeSchema_Member" CanBeDataDriven="True" NavigationActionLabel="Свойства" DefaultAction="Microsoft.Contains" />
+    <Category Id="CodeSchema_ReturnTypeLink" Label="Вернуть" CanLinkedNodesBeDataDriven="True" CanBeDataDriven="True" IncomingActionLabel="Возвращаемые типы" OutgoingActionLabel="Возвращаемые типы" />
+    <Category Id="CodeSchema_Type" Label="Тип" CanBeDataDriven="True" NavigationActionLabel="Типы" DefaultAction="Node:Both:CodeSchema_Member" />
+    <Category Id="Contains" Label="Содержит" Description="Указывает, содержит ли источник связи целевой объект" IsContainment="True" IncomingActionLabel="Содержится в" OutgoingActionLabel="Содержит" CanLinkedNodesBeDataDriven="True" CanBeDataDriven="False" />
+    <Category Id="File" Label="Файл" NavigationActionLabel="Файлы" Icon="File" DefaultAction="Microsoft.Contains" CanBeDataDriven="True" />
+    <Category Id="FileSystem.Category.FileOfType.dll" BasedOn="CodeSchema_Assembly" IsProviderRoot="False" CanBeDataDriven="True" />
+    <Category Id="FileSystem.Category.FileOfType.exe" BasedOn="CodeSchema_Assembly" IsProviderRoot="False" CanBeDataDriven="True" />
+    <Category Id="Implements" Label="Реализации" CanLinkedNodesBeDataDriven="True" CanBeDataDriven="True" IncomingActionLabel="Реализуется" OutgoingActionLabel="Реализации" />
+    <Category Id="InheritsFrom" Label="Наследует от" CanLinkedNodesBeDataDriven="True" CanBeDataDriven="True" IncomingActionLabel="Наследуется" OutgoingActionLabel="Наследует от" />
+    <Category Id="ParameterReferences" Label="Параметр ссылок" CanLinkedNodesBeDataDriven="True" CanBeDataDriven="True" />
+    <Category Id="Produces" Label="Производит" CanLinkedNodesBeDataDriven="True" CanBeDataDriven="True" IncomingActionLabel="Производится" OutgoingActionLabel="Производит" />
+    <Category Id="References" Label="Ссылки" CanLinkedNodesBeDataDriven="True" CanBeDataDriven="True" IncomingActionLabel="Ссылается" OutgoingActionLabel="Ссылки" />
+    <Category Id="ReferencesGenericParameter" Label="Ссылается на универсальный параметр" CanLinkedNodesBeDataDriven="True" CanBeDataDriven="True" IncomingActionLabel="Универсальный параметр, на который ссылается" OutgoingActionLabel="Ссылается на универсальный параметр" />
+    <Category Id="ReferencesGenericType" Label="Ссылается на универсальный" CanLinkedNodesBeDataDriven="True" CanBeDataDriven="True" IncomingActionLabel="Универсальный тип, на который ссылается" OutgoingActionLabel="Ссылается на универсальный" />
+  </Categories>
+  <Properties>
+    <Property Id="FilePath" Label="Путь к файлу" Description="Путь к файлу" DataType="System.String" />
+    <Property Id="Label" Label="Метка" Description="Отображаемая метка аннотируемого объекта" DataType="System.String" />
+    <Property Id="ConfigurationName" Label="ConfigurationName" Description="ConfigurationName" DataType="System.String" />
+    <Property Id="CodeSchemaProperty_StrongName" Label="StrongName" Description="StrongName" DataType="System.String" />
+    <Property Id="CodeSchemaProperty_IsExternal" Label="Является внешним" Description="Флаг, указывающий, что этот узел считается внешним" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPublic" Label="Является Public" Description="Флаг, указывающий на область видимости Public" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsGenericInstance" Label="Создается во время выполнения" Description="Флаг, указывающий, что объект создается во время выполнения" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsSpecialName" Label="Является особым именем" Description="Флаг, указывающий, что некоторые компиляторы обрабатывают этот метод особым образом" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsConstructor" Label="Является конструктором" Description="Флаг, указывающий, что метод является конструктором" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPrivate" Label="Является Private" Description="Флаг, указывающий на область видимости Private" DataType="System.Boolean" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="Icon" Label="Значок" Description="Значок" DataType="System.String" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="Assembly" Label="Сборка" ValueType="Uri" />
+    <Name Id="Namespace" Label="Пространство имен" ValueType="System.String" />
+    <Name Id="Type" Label="Тип" ValueType="System.Object" />
+    <Name Id="Name" Label="Имя" ValueType="System.String" />
+    <Name Id="GenericParameterCount" Label="Число универсальных параметров" ValueType="System.String" />
+    <Name Id="GenericArguments" Label="Универсальные аргументы" ValueType="Microsoft.VisualStudio.GraphModel.GraphNodeIdCollection" />
+    <Name Id="Member" Label="Член" ValueType="System.Object" />
+    <Name Id="OverloadingParameters" Label="Параметр" ValueType="Microsoft.VisualStudio.GraphModel.GraphNodeIdCollection" Formatter="NameValueNoEscape" />
+    <Name Id="ParamKind" Label="Вид параметра" ValueType="Microsoft.VisualStudio.GraphModel.CodeSchema.ParamKind" />
+    <Name Id="ArrayRank" Label="Ранг массива" ValueType="System.String" />
+    <Name Id="ParentType" Label="Родительский тип" ValueType="System.Object" />
+  </QualifiedNames>
+  <IdentifierAliases>
+    <Alias n="1" Uri="Assembly=MaterialsDatabaseClientApplication" />
+    <Alias n="2" Uri="Assembly=$(VsSolutionUri)/ModelLib/ModelLib.csproj" />
+    <Alias n="3" Uri="Assembly=$(VsSolutionUri)/MaterialsDatabase/MaterialsDatabase.csproj" />
+    <Alias n="4" Uri="Assembly=$(VsSolutionUri)/MaterialsDatabaseClientApplication/MaterialsDatabaseEditor.csproj" />
+    <Alias n="5" Uri="Assembly=$(VsSolutionUri)/Viewport/Viewport.csproj" />
+    <Alias n="6" Uri="Assembly=ModelLib" />
+    <Alias n="7" Uri="Assembly=MaterialsDatabase" />
+    <Alias n="8" Id="(@7)" />
+    <Alias n="9" Uri="Assembly=Viewport" />
+    <Alias n="10" Uri="Assembly=mscorlib" />
+    <Alias n="11" Id="(@10)" />
+    <Alias n="12" Uri="Assembly=System.Data" />
+    <Alias n="13" Uri="Assembly=System.Drawing" />
+    <Alias n="14" Uri="Assembly=MySql.Data" />
+    <Alias n="15" Uri="Assembly=System.Data.DataSetExtensions" />
+    <Alias n="16" Id="Namespace=MaterialsDatabase" />
+    <Alias n="17" Id="Type=MatDBDict" />
+    <Alias n="18" Id="(@7 @16 @17)" />
+    <Alias n="19" Id="(@16)" />
+    <Alias n="20" Id="(@7 @16 Type=IMatDBDict)" />
+    <Alias n="21" Id="Namespace=System.Collections.Generic" />
+    <Alias n="22" Id="GenericParameterCount=2" />
+    <Alias n="23" Id="Namespace=System" />
+    <Alias n="24" Id="(@10 @23 Type=Int32)" />
+    <Alias n="25" Id="Type=Material" />
+    <Alias n="26" Id="(@7 @16 @25)" />
+    <Alias n="27" Id="(@10 @21 Type=(Name=IDictionary @22 GenericArguments=[@24,@26]))" />
+    <Alias n="28" Id="(@10 @21 Type=(Name=IDictionary @22))" />
+    <Alias n="29" Id="(@23)" />
+    <Alias n="30" Id="(Namespace=System.Collections)" />
+    <Alias n="31" Id="(@21)" />
+    <Alias n="32" Id="Name=ICollection" />
+    <Alias n="33" Id="GenericParameterCount=1" />
+    <Alias n="34" Id="(@10 @21 Type=(Name=KeyValuePair @22 GenericArguments=[@24,@26]))" />
+    <Alias n="35" Id="(@10 @21 Type=(@32 @33 GenericArguments=[@34]))" />
+    <Alias n="36" Id="(@10 @21 Type=(@32 @33))" />
+    <Alias n="37" Id="(@10 @21 Type=(Name=KeyValuePair @22))" />
+    <Alias n="38" Id="(@10 @21 Type=(Name=IEnumerable @33 GenericArguments=[@34]))" />
+    <Alias n="39" Id="(@10 @21 Type=(Name=IEnumerable @33))" />
+    <Alias n="40" Id="(@7 @16 @17 Member=Reload)" />
+    <Alias n="41" Id="Type=MaterialsDBClient" />
+    <Alias n="42" Id="(@7 @16 @41)" />
+    <Alias n="43" Id="(@7 @16 @41 Member=Reload)" />
+    <Alias n="44" Id="(@7 @16 @17 Member=cl)" />
+    <Alias n="45" Id="Name=Add" />
+    <Alias n="46" Id="(@7 @16 @17 Member=(@45 OverloadingParameters=[@24,@26]))" />
+    <Alias n="47" Id="(@7 @16 @41 Member=(Name=AddMaterial OverloadingParameters=[@26]))" />
+    <Alias n="48" Id="OverloadingParameters=[@24]" />
+    <Alias n="49" Id="(@7 @16 @17 Member=(Name=ContainsKey @48))" />
+    <Alias n="50" Id="(@7 @16 @41 Member=get_Materials)" />
+    <Alias n="51" Id="(@7 @16 @17 Member=get_Keys)" />
+    <Alias n="52" Id="GenericArguments=[@24]" />
+    <Alias n="53" Id="(@10 @21 Type=(Name=List @33 @52))" />
+    <Alias n="54" Id="(@10 @21 Type=(Name=List @33))" />
+    <Alias n="55" Id="Member=.ctor" />
+    <Alias n="56" Id="(@10 @21 Type=(Name=List @33 @52) @55)" />
+    <Alias n="57" Id="(@10 @21 Type=(Name=List @33) @55)" />
+    <Alias n="58" Id="(@10 @21 Type=(Name=List @33 @52) Member=(@45 @48))" />
+    <Alias n="59" Id="(@10 @21 Type=(Name=List @33) Member=(@45 OverloadingParameters=[(@10 @21 Type=T)]))" />
+    <Alias n="60" Id="(@10 @21 Type=(@32 @33 @52))" />
+    <Alias n="61" Id="(@7 @16 @17 Member=(Name=Remove @48))" />
+    <Alias n="62" Id="(@7 @16 @41 Member=(Name=SetMaterialOutDated OverloadingParameters=[@24,(@10 @23 Type=Boolean)]))" />
+    <Alias n="63" Id="(@7 @16 @17 Member=(Name=TryGetValue OverloadingParameters=[@24,(@7 @16 @25 ParamKind=Ref)]))" />
+    <Alias n="64" Id="(@7 @16 @41 Member=(Name=GetMaterialByID @48))" />
+    <Alias n="65" Id="(@7 @16 @17 Member=get_Values)" />
+    <Alias n="66" Id="(@10 @21 Type=(Name=List @33 GenericArguments=[@26]))" />
+    <Alias n="67" Id="(@10 @21 Type=(Name=List @33 GenericArguments=[@26]) @55)" />
+    <Alias n="68" Id="(@10 @21 Type=(Name=IEnumerable @33 @52) Member=GetEnumerator)" />
+    <Alias n="69" Id="(@10 @21 Type=(Name=IEnumerable @33) Member=GetEnumerator)" />
+    <Alias n="70" Id="(@10 @21 Type=(Name=IEnumerator @33))" />
+    <Alias n="71" Id="(@10 @21 Type=(Name=IEnumerator @33 @52) Member=get_Current)" />
+    <Alias n="72" Id="(@10 @21 Type=(Name=IEnumerator @33) Member=get_Current)" />
+    <Alias n="73" Id="(@10 @21 Type=(Name=List @33 GenericArguments=[@26]) Member=(@45 OverloadingParameters=[@26]))" />
+    <Alias n="74" Id="(@10 @21 Type=(@32 @33 GenericArguments=[@26]))" />
+    <Alias n="75" Id="(@7 @16 @17 Member=(Name=get_Item @48))" />
+    <Alias n="76" Id="(@7 @16 @17 Member=(Name=set_Item OverloadingParameters=[@24,@26]))" />
+    <Alias n="77" Id="(@7 @16 @41 Member=(Name=UpdMaterial OverloadingParameters=[@24,@26]))" />
+    <Alias n="78" Id="(@7 @16 @17 Member=(@45 OverloadingParameters=[@34]))" />
+    <Alias n="79" Id="(@10 @21 Type=(Name=KeyValuePair @22 GenericArguments=[@24,@26]) Member=get_Value)" />
+    <Alias n="80" Id="(@10 @21 Type=(Name=KeyValuePair @22) Member=get_Value)" />
+    <Alias n="81" Id="(@7 @16 @17 Member=Clear)" />
+    <Alias n="82" Id="(@7 @16 @41 Member=RemoveOutdatedMaterials)" />
+    <Alias n="83" Id="(@7 @16 @17 Member=(Name=Contains OverloadingParameters=[@34]))" />
+    <Alias n="84" Id="(@10 @21 Type=(Name=KeyValuePair @22 GenericArguments=[@24,@26]) Member=get_Key)" />
+    <Alias n="85" Id="(@10 @21 Type=(Name=KeyValuePair @22) Member=get_Key)" />
+    <Alias n="86" Id="(@7 @16 @17 Member=get_Count)" />
+    <Alias n="87" Id="(@10 @21 Type=(@32 @33 @52) Member=get_Count)" />
+    <Alias n="88" Id="(@10 @21 Type=(@32 @33) Member=get_Count)" />
+    <Alias n="89" Id="(@7 @16 @17 Member=get_IsReadOnly)" />
+    <Alias n="90" Id="(@7 @16 @41 Member=get_UserType)" />
+    <Alias n="91" Id="(@7 @16 @17 Member=(Name=Remove OverloadingParameters=[@34]))" />
+    <Alias n="92" Id="(@7 @16 @17 Member=GetEnumerator)" />
+    <Alias n="93" Id="(@10 @21 Type=(Name=IEnumerator @33 GenericArguments=[@34]))" />
+    <Alias n="94" Id="(@7 @16 @17 Member=(Name=.ctor OverloadingParameters=[(@10 @23 Type=String),(@10 @23 Type=String),(@10 @23 Type=String),(@10 @23 Type=UInt32)]))" />
+    <Alias n="95" Id="(@7 @16 @41 Member=(Name=.ctor OverloadingParameters=[(@10 @23 Type=String),(@10 @23 Type=String),(@10 @23 Type=String),(@10 @23 Type=UInt32)]))" />
+    <Alias n="96" Id="(@7 @16 @17 Member=Keys)" />
+    <Alias n="97" Id="(@7 @16 @17 Member=Values)" />
+    <Alias n="98" Id="(@7 @16 @17 Member=Item)" />
+    <Alias n="99" Id="(@7 @16 @17 Member=Count)" />
+    <Alias n="100" Id="(@7 @16 @17 Member=IsReadOnly)" />
+    <Alias n="101" Id="(@7 @16 @25 Member=get_gAmbientColor)" />
+    <Alias n="102" Id="(@7 @16 @25 Member=gAmbientColorInd)" />
+    <Alias n="103" Id="(@7 @16 @25 Member=(Name=set_gAmbientColor OverloadingParameters=[(@13 Namespace=System.Drawing Type=Color)]))" />
+    <Alias n="104" Id="(@7 @16 @25 Member=(Name=Equals OverloadingParameters=[(@10 @23 Type=Object)]))" />
+    <Alias n="105" Id="(@7 @16 @25 Member=reflection)" />
+    <Alias n="106" Id="(@7 @16 @25 Member=absorbparam)" />
+    <Alias n="107" Id="(@7 @16 @25 Member=Name)" />
+    <Alias n="108" Id="(@7 @16 @25 @55)" />
+    <Alias n="109" Id="(@7 @16 @25 Member=gAmbientColor)" />
+    <Alias n="110" Id="Type=MProps" />
+    <Alias n="111" Id="(@7 @16 @110)" />
+    <Alias n="112" Id="(@7 @16 @110 Member=NAME)" />
+    <Alias n="113" Id="(@7 @16 @110 Member=AMBIENTCOLOR)" />
+    <Alias n="114" Id="(@7 @16 @110 Member=OUTDATED)" />
+    <Alias n="115" Id="(@7 @16 @110 Member=REFLECTION)" />
+    <Alias n="116" Id="(@7 @16 @110 Member=ABSORPTPARAM)" />
+    <Alias n="117" Id="(@7 @16 Type=DBConnectionException)" />
+    <Alias n="118" Id="(@7 @16 Type=DBConnectionException @55)" />
+    <Alias n="119" Id="(@7 @16 Type=ServerException)" />
+    <Alias n="120" Id="(@7 @16 Type=ServerException @55)" />
+    <Alias n="121" Id="(@7 @16 Type=DatabaseNotFoundException)" />
+    <Alias n="122" Id="(@7 @16 Type=DatabaseNotFoundException @55)" />
+    <Alias n="123" Id="(@7 @16 Type=AuthenticationException)" />
+    <Alias n="124" Id="(@7 @16 Type=AuthenticationException @55)" />
+    <Alias n="125" Id="(@7 @16 @41 Member=Authorisate)" />
+    <Alias n="126" Id="(@7 @16 @41 Member=con)" />
+    <Alias n="127" Id="(@7 @16 @41 Member=table)" />
+    <Alias n="128" Id="(@7 @16 @41 Member=get_ServerName)" />
+    <Alias n="129" Id="(@7 @16 @41 Member=get_ServerPort)" />
+    <Alias n="130" Id="(@7 @16 @41 Member=get_UserName)" />
+    <Alias n="131" Id="Type=(Name=UserMode ParentType=MaterialsDBClient)" />
+    <Alias n="132" Id="(@7 @16 @131)" />
+    <Alias n="133" Id="(@7 @16 @41 Member=adapter)" />
+    <Alias n="134" Id="(@7 @16 @41 Member=(Name=UpdMaterialProp OverloadingParameters=[@24,@111,(@10 @23 Type=Object)]))" />
+    <Alias n="135" Id="(@7 @16 @41 Member=Materials)" />
+    <Alias n="136" Id="(@7 @16 @41 Member=ServerName)" />
+    <Alias n="137" Id="(@7 @16 @41 Member=ServerPort)" />
+    <Alias n="138" Id="(@7 @16 @41 Member=UserName)" />
+    <Alias n="139" Id="(@7 @16 @41 Member=UserType)" />
+    <Alias n="140" Id="(@7 @16 @131 Member=Viewer)" />
+    <Alias n="141" Id="(@7 @16 @131 Member=Editor)" />
+    <Alias n="142" Id="(@7 @16 @131 Member=Corrector)" />
+  </IdentifierAliases>
+  <Paths>
+    <Path Id="0bbfc0ff-f268-408a-8031-4b956249ab0d.OutputPath" Value="C:\Users\Алексей\Dropbox\priv\ИНСТИТУТ\Проект\AcousticSimulator\MaterialsDatabase\bin\Debug\MaterialsDatabase.dll" />
+    <Path Id="17b339b9-bec0-4ae5-bc18-1360d8870292.OutputPath" Value="C:\Users\Алексей\Dropbox\priv\ИНСТИТУТ\Проект\AcousticSimulator\ModelLib\bin\Debug\ModelLib.dll" />
+    <Path Id="676e1ba4-3976-4bde-a752-afa7071e793a.OutputPath" Value="C:\Users\Алексей\Dropbox\priv\ИНСТИТУТ\Проект\AcousticSimulator\Viewport\bin\Debug\Viewport.dll" />
+    <Path Id="a95afb62-c38a-49d8-96d3-dc6a830940f7.OutputPath" Value="C:\Users\Алексей\Dropbox\priv\ИНСТИТУТ\Проект\AcousticSimulator\MaterialsDatabaseClientApplication\bin\Debug\MaterialsDatabaseClientApplication.exe" />
+    <Path Id="VsSolution" Value="C:\Users\Алексей\Dropbox\priv\ИНСТИТУТ\Проект\AcousticSimulator" />
+    <Path Id="VsSolutionUri" Value="file:///C:/Users/Алексей/Dropbox/priv/ИНСТИТУТ/Проект/AcousticSimulator" />
+  </Paths>
+</DirectedGraph>

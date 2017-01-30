@@ -1,0 +1,7 @@
+C:\Users\авав\Dropbox\apich\ИНСТИТУТ\Проект\api\assimp-net-master\assimp-net-master\AssimpNet\bin\Net20-Debug\Assimp32.dll
+C:\Users\авав\Dropbox\apich\ИНСТИТУТ\Проект\api\assimp-net-master\assimp-net-master\AssimpNet\bin\Net20-Debug\Assimp64.dll
+C:\Users\авав\Dropbox\apich\ИНСТИТУТ\Проект\api\assimp-net-master\assimp-net-master\AssimpNet\bin\Net20-Debug\AssimpLicense.txt
+C:\Users\авав\Dropbox\apich\ИНСТИТУТ\Проект\api\assimp-net-master\assimp-net-master\AssimpNet\bin\Net20-Debug\AssimpNet.dll
+C:\Users\авав\Dropbox\apich\ИНСТИТУТ\Проект\api\assimp-net-master\assimp-net-master\AssimpNet\bin\Net20-Debug\AssimpNet.pdb
+C:\Users\авав\Dropbox\apich\ИНСТИТУТ\Проект\api\assimp-net-master\assimp-net-master\AssimpNet\obj\Net20-Debug\AssimpNet.dll
+C:\Users\авав\Dropbox\apich\ИНСТИТУТ\Проект\api\assimp-net-master\assimp-net-master\AssimpNet\obj\Net20-Debug\AssimpNet.pdb

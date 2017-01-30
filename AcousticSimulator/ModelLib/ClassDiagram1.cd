@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="ModelLib.Border">
+    <Position X="19" Y="9" Width="1.5" />
+    <AssociationLine Name="room1" Type="ModelLib.Room" FixedFromPoint="true">
+      <Path>
+        <Point X="19" Y="9.377" />
+        <Point X="18" Y="9.377" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="Rectangle" Type="ModelLib.spacerect" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="19.188" Y="10.627" />
+        <Point X="19.188" Y="11.002" />
+        <Point X="17.125" Y="11.002" />
+        <Point X="17.125" Y="12" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAQAAAAAAAAAgAAAAAAAAFAAABAA=</HashCode>
+      <FileName>Border.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="room1" />
+      <Field Name="room2" />
+      <Field Name="Rectangle" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="layers" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="ModelLib.border_layer">
+    <Position X="18.75" Y="11.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Border.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ModelLib.spacerect">
+    <Position X="15.25" Y="12" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AggAAAAIgAAAEAAEAAAAAAAEAAAAABAABAAgEAAAAAA=</HashCode>
+      <FileName>Border.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ModelLib.calcpoint">
+    <Position X="13" Y="11.75" Width="1.75" />
+    <InheritanceLine Type="ModelLib.pointModelPart" FixedToPoint="true">
+      <Path>
+        <Point X="12" Y="9.483" />
+        <Point X="12" Y="9.858" />
+        <Point X="13.688" Y="9.858" />
+        <Point X="13.688" Y="11.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>calcpoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ModelLib.Document">
+    <Position X="5.75" Y="0.5" Width="5.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQgAAAAACAAAAAAAAIAAAQCAAAAAAAAAgAAAAIEAA=</HashCode>
+      <FileName>Document.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="model" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ModelLib.gmaterial">
+    <Position X="1.25" Y="8.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAgAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Mesh.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ModelLib.Mesh">
+    <Position X="8.5" Y="8.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAQAAAAAAAAQAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Mesh.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ModelLib.ModelPart">
+    <Position X="18" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAEAAAAAAAACgAAAAA=</HashCode>
+      <FileName>Model.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ModelLib.Model">
+    <Position X="6" Y="4.5" Width="4.25" />
+    <AssociationLine Name="reflectors" Type="ModelLib.Reflector" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="10.25" Y="6.374" />
+        <Point X="11.042" Y="6.374" Type="JumpStart" />
+        <Point X="11.208" Y="6.374" Type="JumpEnd" />
+        <Point X="14.906" Y="6.374" />
+        <Point X="14.906" Y="9.25" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="borders" Type="ModelLib.Border" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="10.25" Y="4.768" />
+        <Point X="20" Y="4.768" />
+        <Point X="20" Y="9" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="calcpts" Type="ModelLib.calcpoint" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="10.25" Y="6.709" />
+        <Point X="11.042" Y="6.709" Type="JumpStart" />
+        <Point X="11.208" Y="6.709" Type="JumpEnd" />
+        <Point X="14.125" Y="6.709" />
+        <Point X="14.125" Y="11.75" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAgCAAgAAIAAAAAAAIAAlAAAAAAABAAAAIAAABgEAA=</HashCode>
+      <FileName>Model.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="reflectors" />
+      <Field Name="rooms" />
+      <Field Name="sources" />
+      <Field Name="borders" />
+      <Field Name="calcpts" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="ModelLib.NoiseCalculator">
+    <Position X="0.5" Y="0.5" Width="4.25" />
+    <NestedTypes>
+      <Class Name="ModelLib.NoiseCalculator.pseudoNS" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>NoiseCalculator.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAQIQFICIILCQEIAICAAAASACgAAAAoAQCEgAAABA=</HashCode>
+      <FileName>NoiseCalculator.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_m" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ModelLib.NoiseSource">
+    <Position X="10.25" Y="11.25" Width="2.5" />
+    <InheritanceLine Type="ModelLib.pointModelPart" FixedToPoint="true">
+      <Path>
+        <Point X="12" Y="9.483" />
+        <Point X="12" Y="11.25" />
+      </Path>
+    </InheritanceLine>
+    <AssociationLine Name="power" Type="ModelLib.noise" FixedFromPoint="true">
+      <Path>
+        <Point X="10.25" Y="11.753" />
+        <Point X="9" Y="11.753" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAEAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>NoiseSource.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="power" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ModelLib.noise">
+    <Position X="6.5" Y="11" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAiAEAAAAAYAAAAQQAAAEAAAAAAAAAAACAAAkAAgAQA=</HashCode>
+      <FileName>NoiseSource.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="lvl1000" />
+      <Field Name="lvl125" />
+      <Field Name="lvl2000" />
+      <Field Name="lvl250" />
+      <Field Name="lvl315" />
+      <Field Name="lvl4000" />
+      <Field Name="lvl500" />
+      <Field Name="lvl63" />
+      <Field Name="lvl8000" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ModelLib.noiseoctlvl">
+    <Position X="0.5" Y="11.25" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>NoiseSource.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ModelLib.Room">
+    <Position X="16.5" Y="9.25" Width="1.5" />
+    <InheritanceLine Type="ModelLib.ModelPart" ManuallyRouted="true">
+      <Path>
+        <Point X="18.75" Y="7.632" />
+        <Point X="18.75" Y="8.002" />
+        <Point X="17.25" Y="8.002" />
+        <Point X="17.25" Y="9.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Room.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ModelLib.pointModelPart">
+    <Position X="11.25" Y="8.25" Width="1.5" />
+    <AssociationLine Name="room" Type="ModelLib.Room" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="12.75" Y="8.5" />
+        <Point X="14.042" Y="8.5" Type="JumpStart" />
+        <Point X="14.208" Y="8.5" Type="JumpEnd" />
+        <Point X="14.823" Y="8.5" Type="JumpStart" />
+        <Point X="14.99" Y="8.5" Type="JumpEnd" />
+        <Point X="15.292" Y="8.5" Type="JumpStart" />
+        <Point X="15.458" Y="8.5" Type="JumpEnd" />
+        <Point X="16.76" Y="8.5" Type="JumpStart" />
+        <Point X="16.927" Y="8.5" Type="JumpEnd" />
+        <Point X="17.167" Y="8.5" Type="JumpStart" />
+        <Point X="17.333" Y="8.5" Type="JumpEnd" />
+        <Point X="17.656" Y="8.5" />
+        <Point X="17.656" Y="9.25" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="room" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ModelLib.LinearNoiseSrc">
+    <Position X="10.5" Y="13.5" Width="1.5" />
+    <InheritanceLine Type="ModelLib.NoiseSource" FixedFromPoint="true">
+      <Path>
+        <Point X="11.25" Y="12.877" />
+        <Point X="11.25" Y="13.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAIAEAAAA=</HashCode>
+      <FileName>LinearNoiseSrc.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ModelLib.Reflector">
+    <Position X="14.5" Y="9.25" Width="1.75" />
+    <InheritanceLine Type="ModelLib.ModelPart" ManuallyRouted="true">
+      <Path>
+        <Point X="18.75" Y="7.632" />
+        <Point X="18.75" Y="8.008" />
+        <Point X="16.927" Y="8.008" Type="JumpStart" />
+        <Point X="16.76" Y="8.008" Type="JumpEnd" />
+        <Point X="15.375" Y="8.008" />
+        <Point X="15.375" Y="9.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAAgAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Reflector.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Rectangle" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

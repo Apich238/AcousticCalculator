@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="(@1)" Category="File" FilePath="C:\Users\Алексей\Dropbox\priv\ИНСТИТУТ\Проект\AcousticSimulator\ModelingProject2\ld.layerdiagram" Label="ld.layerdiagram" />
+    <Node Id="6a94214c-3f91-4b08-9af5-c95fba272b00" Category="Dsl.LayerModel" Dsl.DiagramPath="C:\Users\Алексей\Dropbox\priv\ИНСТИТУТ\Проект\AcousticSimulator\ModelingProject2\ld.layerdiagram" Dsl.QualifiedName="" Label="ld" />
+    <Node Id="003bd707-2b00-474b-bde6-825a70bb8179" Category="Dsl.Layer" Dsl.ForbiddenNamespaceDependencies="" Dsl.ForbiddenNamespace="" Dsl.RequiredNamespace="" Dsl.QualifiedName="Акустическая модель&#xD;&#xA;ModelLib" Label="Акустическая модель&#xD;&#xA;ModelLib" />
+    <Node Id="a426248a-ca96-4d18-8f47-8d0e81751f3c" Category="Dsl.Layer" Dsl.ForbiddenNamespaceDependencies="" Dsl.ForbiddenNamespace="" Dsl.RequiredNamespace="" Dsl.QualifiedName="Редактор БД материалов&#xD;&#xA;MaterialsDatabaseEditor" Label="Редактор БД материалов&#xD;&#xA;MaterialsDatabaseEditor" />
+    <Node Id="5ee03658-1674-407d-99f5-ec35c63bb9a5" Category="Dsl.Layer" Dsl.ForbiddenNamespaceDependencies="" Dsl.ForbiddenNamespace="" Dsl.RequiredNamespace="" Dsl.QualifiedName="База данных о материалах&#xD;&#xA;MaterialsDatabase" Label="База данных о материалах&#xD;&#xA;MaterialsDatabase" />
+    <Node Id="ac6c4468-ccf0-4daa-87fe-c4d3455428ca" Category="Dsl.Layer" Dsl.ForbiddenNamespaceDependencies="" Dsl.ForbiddenNamespace="" Dsl.RequiredNamespace="" Dsl.QualifiedName="Уровень пользовательского интерфейса" Label="Уровень пользовательского интерфейса" />
+    <Node Id="9c0c20ce-9c5b-4d88-8f7e-e1d0757781ba" Category="Dsl.Layer" Dsl.ForbiddenNamespaceDependencies="" Dsl.ForbiddenNamespace="" Dsl.RequiredNamespace="" Dsl.QualifiedName="Уровень пользовательского интерфейса.Видовой порт&#xD;&#xA;Viewport" Label="Видовой порт&#xD;&#xA;Viewport" />
+    <Node Id="cec1a05b-3003-4f76-b674-8b5f069961e5" Category="Dsl.Layer" Dsl.ForbiddenNamespaceDependencies="" Dsl.ForbiddenNamespace="" Dsl.RequiredNamespace="" Dsl.QualifiedName="Уровень пользовательского интерфейса.Редактор модели&#xD;&#xA;ModelEditor" Label="Редактор модели&#xD;&#xA;ModelEditor" />
+    <Node Id="1c8250f2-66c6-4e1a-b2a5-d3476707f06f" Category="Dsl.Reference" Dsl.SupportsValidation="True" Dsl.QualifiedName="Акустическая модель&#xD;&#xA;ModelLib.ModelLib" Label="ModelLib" />
+    <Node Id="(@2)" />
+    <Node Id="351e8daf-40d7-4bc9-ac83-7fe94346f0a9" Category="Dsl.Reference" Dsl.SupportsValidation="True" Dsl.QualifiedName="Редактор БД материалов&#xD;&#xA;MaterialsDatabaseEditor.MaterialsDatabaseEditor" Label="MaterialsDatabaseEditor" />
+    <Node Id="(@3)" />
+    <Node Id="0e44ad51-7e05-4e18-8366-a689328f89f6" Category="Dsl.Reference" Dsl.SupportsValidation="True" Dsl.QualifiedName="База данных о материалах&#xD;&#xA;MaterialsDatabase.MaterialsDatabase" Label="MaterialsDatabase" />
+    <Node Id="(@4)" />
+    <Node Id="e0282261-1c55-4f2e-ae80-c726e578bb17" Category="Dsl.Reference" Dsl.SupportsValidation="True" Dsl.QualifiedName="Уровень пользовательского интерфейса.Видовой порт&#xD;&#xA;Viewport.Viewport" Label="Viewport" />
+    <Node Id="(@5)" />
+    <Node Id="71a89d66-2748-4484-827f-197ec323e288" Category="Dsl.Reference" Dsl.SupportsValidation="True" Dsl.QualifiedName="Уровень пользовательского интерфейса.Редактор модели&#xD;&#xA;ModelEditor.ModelEditor" Label="ModelEditor" />
+    <Node Id="(@6)" />
+  </Nodes>
+  <Links>
+    <Link Source="1c8250f2-66c6-4e1a-b2a5-d3476707f06f" Target="(@2)" Category="Produces">
+      <Category Ref="Represents" />
+    </Link>
+    <Link Source="351e8daf-40d7-4bc9-ac83-7fe94346f0a9" Target="(@3)" Category="Produces">
+      <Category Ref="Represents" />
+    </Link>
+    <Link Source="0e44ad51-7e05-4e18-8366-a689328f89f6" Target="(@4)" Category="Produces">
+      <Category Ref="Represents" />
+    </Link>
+    <Link Source="e0282261-1c55-4f2e-ae80-c726e578bb17" Target="(@5)" Category="Produces">
+      <Category Ref="Represents" />
+    </Link>
+    <Link Source="71a89d66-2748-4484-827f-197ec323e288" Target="(@6)" Category="Produces">
+      <Category Ref="Represents" />
+    </Link>
+    <Link Source="6a94214c-3f91-4b08-9af5-c95fba272b00" Target="003bd707-2b00-474b-bde6-825a70bb8179" Category="Dsl.LayerModelHasLayers" />
+    <Link Source="6a94214c-3f91-4b08-9af5-c95fba272b00" Target="a426248a-ca96-4d18-8f47-8d0e81751f3c" Category="Dsl.LayerModelHasLayers" />
+    <Link Source="6a94214c-3f91-4b08-9af5-c95fba272b00" Target="5ee03658-1674-407d-99f5-ec35c63bb9a5" Category="Dsl.LayerModelHasLayers" />
+    <Link Source="6a94214c-3f91-4b08-9af5-c95fba272b00" Target="ac6c4468-ccf0-4daa-87fe-c4d3455428ca" Category="Dsl.LayerModelHasLayers" />
+    <Link Source="ac6c4468-ccf0-4daa-87fe-c4d3455428ca" Target="9c0c20ce-9c5b-4d88-8f7e-e1d0757781ba" Category="Dsl.LayerHasChildLayers" />
+    <Link Source="ac6c4468-ccf0-4daa-87fe-c4d3455428ca" Target="cec1a05b-3003-4f76-b674-8b5f069961e5" Category="Dsl.LayerHasChildLayers" />
+    <Link Source="003bd707-2b00-474b-bde6-825a70bb8179" Target="1c8250f2-66c6-4e1a-b2a5-d3476707f06f" Category="Dsl.LayerHasReferences" />
+    <Link Source="a426248a-ca96-4d18-8f47-8d0e81751f3c" Target="351e8daf-40d7-4bc9-ac83-7fe94346f0a9" Category="Dsl.LayerHasReferences" />
+    <Link Source="5ee03658-1674-407d-99f5-ec35c63bb9a5" Target="0e44ad51-7e05-4e18-8366-a689328f89f6" Category="Dsl.LayerHasReferences" />
+    <Link Source="9c0c20ce-9c5b-4d88-8f7e-e1d0757781ba" Target="e0282261-1c55-4f2e-ae80-c726e578bb17" Category="Dsl.LayerHasReferences" />
+    <Link Source="cec1a05b-3003-4f76-b674-8b5f069961e5" Target="71a89d66-2748-4484-827f-197ec323e288" Category="Dsl.LayerHasReferences" />
+    <Link Source="003bd707-2b00-474b-bde6-825a70bb8179" Target="5ee03658-1674-407d-99f5-ec35c63bb9a5" Category="Dsl.DependencyFromLayerToLayer" Dsl.Direction="Forward" />
+    <Link Source="a426248a-ca96-4d18-8f47-8d0e81751f3c" Target="5ee03658-1674-407d-99f5-ec35c63bb9a5" Category="Dsl.DependencyFromLayerToLayer" Dsl.Direction="Forward" />
+    <Link Source="9c0c20ce-9c5b-4d88-8f7e-e1d0757781ba" Target="003bd707-2b00-474b-bde6-825a70bb8179" Category="Dsl.DependencyFromLayerToLayer" Dsl.Direction="Forward" />
+    <Link Source="cec1a05b-3003-4f76-b674-8b5f069961e5" Target="9c0c20ce-9c5b-4d88-8f7e-e1d0757781ba" Category="Dsl.DependencyFromLayerToLayer" Dsl.Direction="Forward" />
+    <Link Source="cec1a05b-3003-4f76-b674-8b5f069961e5" Target="003bd707-2b00-474b-bde6-825a70bb8179" Category="Dsl.DependencyFromLayerToLayer" Dsl.Direction="Forward" />
+    <Link Source="cec1a05b-3003-4f76-b674-8b5f069961e5" Target="a426248a-ca96-4d18-8f47-8d0e81751f3c" Category="Dsl.DependencyFromLayerToLayer" Dsl.Direction="Forward" />
+  </Links>
+  <Categories>
+    <Category Id="Dsl.DependencyFromLayerToLayer" Label="Зависимость от слоя к слою" CanLinkedNodesBeDataDriven="True" CanBeDataDriven="True" IncomingActionLabel="Зависимость из слоев" OutgoingActionLabel="Зависимость в слои" />
+    <Category Id="Dsl.Layer" Label="Слой" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="Слой" />
+    <Category Id="Dsl.LayerHasChildLayers" Label="Слой имеет дочерние слои" IsContainment="True" CanLinkedNodesBeDataDriven="True" CanBeDataDriven="True" IncomingActionLabel="Родительский слой" OutgoingActionLabel="Дочерние слои" />
+    <Category Id="Dsl.LayerHasReferences" Label="Слой имеет ссылки" IsContainment="True" CanLinkedNodesBeDataDriven="True" CanBeDataDriven="True" IncomingActionLabel="Слой" OutgoingActionLabel="Ссылки" />
+    <Category Id="Dsl.LayerModel" Label="Модель слоев" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="Модель слоев" />
+    <Category Id="Dsl.LayerModelHasLayers" Label="Модель слоев имеет дочерние слои" IsContainment="True" CanLinkedNodesBeDataDriven="True" CanBeDataDriven="True" IncomingActionLabel="Модель слоев" OutgoingActionLabel="Слои" />
+    <Category Id="Dsl.Reference" Label="Ссылка" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="Ссылка" />
+    <Category Id="File" Label="Файл" CanBeDataDriven="True" NavigationActionLabel="Файлы" DefaultAction="Microsoft.Contains" />
+    <Category Id="Produces" Label="Производит" OutgoingActionLabel="Производит" IncomingActionLabel="Производится" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" />
+    <Category Id="Represents" Label="Представляет" OutgoingActionLabel="Представляет" IncomingActionLabel="Представляется" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IsContainment="True" />
+  </Categories>
+  <Properties>
+    <Property Id="FilePath" Label="Путь к файлу" Description="Путь к файлу" DataType="System.String" />
+    <Property Id="Label" Label="Метка" Description="Отображаемая метка аннотируемого объекта" DataType="System.String" />
+    <Property Id="Dsl.DiagramPath" DataType="System.String" />
+    <Property Id="Dsl.QualifiedName" DataType="System.String" />
+    <Property Id="Dsl.ForbiddenNamespaceDependencies" DataType="System.String" />
+    <Property Id="Dsl.ForbiddenNamespace" DataType="System.String" />
+    <Property Id="Dsl.RequiredNamespace" DataType="System.String" />
+    <Property Id="Dsl.SupportsValidation" DataType="System.Boolean" />
+    <Property Id="Dsl.Direction" DataType="System.String" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="Assembly" Label="Сборка" ValueType="Uri" />
+  </QualifiedNames>
+  <IdentifierAliases>
+    <Alias n="1" Uri="Assembly=file:///C:/Users/Алексей/Dropbox/priv/ИНСТИТУТ/Проект/AcousticSimulator/ModelingProject2/ld.layerdiagram" />
+    <Alias n="2" Uri="Assembly=ModelLib" />
+    <Alias n="3" Uri="Assembly=MaterialsDatabaseClientApplication" />
+    <Alias n="4" Uri="Assembly=MaterialsDatabase" />
+    <Alias n="5" Uri="Assembly=Viewport" />
+    <Alias n="6" Uri="Assembly=ModelEditor" />
+  </IdentifierAliases>
+</DirectedGraph>

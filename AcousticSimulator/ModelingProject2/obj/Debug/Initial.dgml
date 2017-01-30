@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="(@1)" Category="CodeSchema_Assembly" FilePath="$(a95afb62-c38a-49d8-96d3-dc6a830940f7.OutputPath)" Label="C:\Users\Алексей\Dropbox\priv\ИНСТИТУТ\Проект\AcousticSimulator\MaterialsDatabaseClientApplication\bin\Debug\MaterialsDatabaseClientApplication.exe" />
+    <Node Id="(@2)" ConfigurationName="Debug|AnyCPU" FilePath="$(VsSolution)\ModelLib\ModelLib.csproj" Label="C:\Users\Алексей\Dropbox\priv\ИНСТИТУТ\Проект\AcousticSimulator\ModelLib\ModelLib.csproj" />
+    <Node Id="(@3)" ConfigurationName="Debug|AnyCPU" FilePath="$(VsSolution)\MaterialsDatabase\MaterialsDatabase.csproj" Label="C:\Users\Алексей\Dropbox\priv\ИНСТИТУТ\Проект\AcousticSimulator\MaterialsDatabase\MaterialsDatabase.csproj" />
+    <Node Id="(@4)" ConfigurationName="Debug|AnyCPU" FilePath="$(VsSolution)\MaterialsDatabaseClientApplication\MaterialsDatabaseEditor.csproj" Label="C:\Users\Алексей\Dropbox\priv\ИНСТИТУТ\Проект\AcousticSimulator\MaterialsDatabaseClientApplication\MaterialsDatabaseEditor.csproj" />
+    <Node Id="(@5)" ConfigurationName="Debug|AnyCPU" FilePath="$(VsSolution)\Viewport\Viewport.csproj" Label="C:\Users\Алексей\Dropbox\priv\ИНСТИТУТ\Проект\AcousticSimulator\Viewport\Viewport.csproj" />
+    <Node Id="(@6)" Category="CodeSchema_Assembly" FilePath="$(17b339b9-bec0-4ae5-bc18-1360d8870292.OutputPath)" Label="C:\Users\Алексей\Dropbox\priv\ИНСТИТУТ\Проект\AcousticSimulator\ModelLib\bin\Debug\ModelLib.dll" />
+    <Node Id="(@7)" Category="CodeSchema_Assembly" FilePath="$(0bbfc0ff-f268-408a-8031-4b956249ab0d.OutputPath)" Label="C:\Users\Алексей\Dropbox\priv\ИНСТИТУТ\Проект\AcousticSimulator\MaterialsDatabase\bin\Debug\MaterialsDatabase.dll" />
+    <Node Id="(@8)" Category="CodeSchema_Assembly" FilePath="$(676e1ba4-3976-4bde-a752-afa7071e793a.OutputPath)" Label="C:\Users\Алексей\Dropbox\priv\ИНСТИТУТ\Проект\AcousticSimulator\Viewport\bin\Debug\Viewport.dll" />
+  </Nodes>
+  <Links>
+    <Link Source="(@2)" Target="(@6)" Category="Produces" />
+    <Link Source="(@3)" Target="(@7)" Category="Produces" />
+    <Link Source="(@4)" Target="(@1)" Category="Produces" />
+    <Link Source="(@5)" Target="(@8)" Category="Produces" />
+  </Links>
+  <Categories>
+    <Category Id="CodeSchema_Assembly" Label="Сборка" BasedOn="File" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Assembly" NavigationActionLabel="Сборки" />
+    <Category Id="File" Label="Файл" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="File" NavigationActionLabel="Файлы" />
+    <Category Id="Produces" Label="Производит" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Производится" OutgoingActionLabel="Производит" />
+  </Categories>
+  <Properties>
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="ConfigurationName" Label="ConfigurationName" Description="ConfigurationName" DataType="System.String" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="FilePath" Label="Путь к файлу" Description="Путь к файлу" DataType="System.String" />
+    <Property Id="Icon" Label="Значок" Description="Значок" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="Label" Label="Метка" Description="Отображаемая метка аннотируемого объекта" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="Assembly" Label="Сборка" ValueType="Uri" />
+  </QualifiedNames>
+  <IdentifierAliases>
+    <Alias n="1" Uri="Assembly=$(a95afb62-c38a-49d8-96d3-dc6a830940f7.OutputPathUri)" />
+    <Alias n="2" Uri="Assembly=$(VsSolutionUri)/ModelLib/ModelLib.csproj" />
+    <Alias n="3" Uri="Assembly=$(VsSolutionUri)/MaterialsDatabase/MaterialsDatabase.csproj" />
+    <Alias n="4" Uri="Assembly=$(VsSolutionUri)/MaterialsDatabaseClientApplication/MaterialsDatabaseEditor.csproj" />
+    <Alias n="5" Uri="Assembly=$(VsSolutionUri)/Viewport/Viewport.csproj" />
+    <Alias n="6" Uri="Assembly=$(17b339b9-bec0-4ae5-bc18-1360d8870292.OutputPathUri)" />
+    <Alias n="7" Uri="Assembly=$(0bbfc0ff-f268-408a-8031-4b956249ab0d.OutputPathUri)" />
+    <Alias n="8" Uri="Assembly=$(676e1ba4-3976-4bde-a752-afa7071e793a.OutputPathUri)" />
+  </IdentifierAliases>
+  <Paths>
+    <Path Id="0bbfc0ff-f268-408a-8031-4b956249ab0d.OutputPath" Value="C:\Users\Алексей\Dropbox\priv\ИНСТИТУТ\Проект\AcousticSimulator\MaterialsDatabase\bin\Debug\MaterialsDatabase.dll" />
+    <Path Id="0bbfc0ff-f268-408a-8031-4b956249ab0d.OutputPathUri" Value="file:///C:/Users/Алексей/Dropbox/priv/ИНСТИТУТ/Проект/AcousticSimulator/MaterialsDatabase/bin/Debug/MaterialsDatabase.dll" />
+    <Path Id="17b339b9-bec0-4ae5-bc18-1360d8870292.OutputPath" Value="C:\Users\Алексей\Dropbox\priv\ИНСТИТУТ\Проект\AcousticSimulator\ModelLib\bin\Debug\ModelLib.dll" />
+    <Path Id="17b339b9-bec0-4ae5-bc18-1360d8870292.OutputPathUri" Value="file:///C:/Users/Алексей/Dropbox/priv/ИНСТИТУТ/Проект/AcousticSimulator/ModelLib/bin/Debug/ModelLib.dll" />
+    <Path Id="676e1ba4-3976-4bde-a752-afa7071e793a.OutputPath" Value="C:\Users\Алексей\Dropbox\priv\ИНСТИТУТ\Проект\AcousticSimulator\Viewport\bin\Debug\Viewport.dll" />
+    <Path Id="676e1ba4-3976-4bde-a752-afa7071e793a.OutputPathUri" Value="file:///C:/Users/Алексей/Dropbox/priv/ИНСТИТУТ/Проект/AcousticSimulator/Viewport/bin/Debug/Viewport.dll" />
+    <Path Id="a95afb62-c38a-49d8-96d3-dc6a830940f7.OutputPath" Value="C:\Users\Алексей\Dropbox\priv\ИНСТИТУТ\Проект\AcousticSimulator\MaterialsDatabaseClientApplication\bin\Debug\MaterialsDatabaseClientApplication.exe" />
+    <Path Id="a95afb62-c38a-49d8-96d3-dc6a830940f7.OutputPathUri" Value="file:///C:/Users/Алексей/Dropbox/priv/ИНСТИТУТ/Проект/AcousticSimulator/MaterialsDatabaseClientApplication/bin/Debug/MaterialsDatabaseClientApplication.exe" />
+    <Path Id="VsSolution" Value="C:\Users\Алексей\Dropbox\priv\ИНСТИТУТ\Проект\AcousticSimulator" />
+    <Path Id="VsSolutionUri" Value="file:///C:/Users/Алексей/Dropbox/priv/ИНСТИТУТ/Проект/AcousticSimulator" />
+  </Paths>
+</DirectedGraph>

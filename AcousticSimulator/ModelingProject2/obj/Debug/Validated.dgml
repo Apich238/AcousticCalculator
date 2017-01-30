@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="@2" Category="Node.Error" ErrorLevel="Warning" Description="AV3001: отсутствует ссылка: слой &quot;Уровень пользовательского интерфейса.Редактор модели&#xD;&#xA;ModelEditor&quot; содержит ссылку на объект &quot;ModelEditor&quot;, который не удается найти. Возможно, отсутствует ссылка на сборку." Label="Предупреждение при проверке: Не удается разрешить ссылку" />
+    <Node Id="cec1a05b-3003-4f76-b674-8b5f069961e5" Category="Dsl.Layer" Dsl.ForbiddenNamespaceDependencies="" Dsl.ForbiddenNamespace="" Dsl.RequiredNamespace="" Dsl.QualifiedName="Уровень пользовательского интерфейса.Редактор модели&#xD;&#xA;ModelEditor" Visibility="Hidden" Label="Редактор модели&#xD;&#xA;ModelEditor" />
+    <Node Id="6a94214c-3f91-4b08-9af5-c95fba272b00" Category="Dsl.LayerModel" Dsl.DiagramPath="C:\Users\Алексей\Dropbox\priv\ИНСТИТУТ\Проект\AcousticSimulator\ModelingProject2\ld.layerdiagram" Dsl.QualifiedName="" Visibility="Hidden" Label="ld" />
+  </Nodes>
+  <Links>
+    <Link Source="@2" Target="cec1a05b-3003-4f76-b674-8b5f069961e5" Category="LayerDesigner.ErrorSource" IsHiddenInNavigation="True" />
+    <Link Source="@2" Target="6a94214c-3f91-4b08-9af5-c95fba272b00" Category="LayerDesigner.ErrorLayerModel" IsHiddenInNavigation="True" />
+  </Links>
+  <Categories>
+    <Category Id="Dsl.Layer" Label="Слой" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="Слой" />
+    <Category Id="Dsl.LayerModel" Label="Модель слоев" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="Модель слоев" />
+    <Category Id="LayerDesigner.ErrorLayerModel" Label="Ошибка" BasedOn="Link.Error" OutgoingActionLabel="Ошибка" IncomingActionLabel="Ошибка" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" />
+    <Category Id="LayerDesigner.ErrorSource" Label="Ошибка" BasedOn="Link.Error" OutgoingActionLabel="Ошибка" IncomingActionLabel="Ошибка" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" />
+    <Category Id="Link.Error" Label="Ошибка" OutgoingActionLabel="Ошибка" IncomingActionLabel="Ошибка" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" />
+    <Category Id="Node.Error" Label="Ошибка" NavigationActionLabel="Ошибка" IsProviderRoot="False" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" />
+  </Categories>
+  <Properties>
+    <Property Id="ErrorLevel" Label="Уровень ошибки" Description="Используется для связи уровня ошибки с узлом или связью в графе" Group="Анализ" DataType="Microsoft.VisualStudio.Progression.ErrorLevel" />
+    <Property Id="Description" Label="Описание" Description="Описание" DataType="System.String" />
+    <Property Id="Label" Label="Метка" Description="Отображаемая метка аннотируемого объекта" DataType="System.String" />
+    <Property Id="Dsl.ForbiddenNamespaceDependencies" DataType="System.String" />
+    <Property Id="Dsl.ForbiddenNamespace" DataType="System.String" />
+    <Property Id="Dsl.RequiredNamespace" DataType="System.String" />
+    <Property Id="Dsl.QualifiedName" DataType="System.String" />
+    <Property Id="Visibility" Label="Видимость" Description="Определяет, является ли видимым узел в графе" DataType="System.Windows.Visibility" />
+    <Property Id="Dsl.DiagramPath" DataType="System.String" />
+    <Property Id="IsHiddenInNavigation" DataType="System.Boolean" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="ErrorName" Label="ErrorName" ValueType="System.String" />
+    <Name Id="LayerNode" Label="LayerNode" ValueType="Microsoft.VisualStudio.GraphModel.GraphNodeId" />
+    <Name Id="Artifact" Label="Artifact" ValueType="Microsoft.VisualStudio.GraphModel.GraphNodeId" />
+    <Name Id="Assembly" Label="Сборка" ValueType="Uri" />
+  </QualifiedNames>
+  <IdentifierAliases>
+    <Alias n="1" Uri="Assembly=ModelEditor" />
+    <Alias n="2" Id="(ErrorName=ReferenceValidationWarning LayerNode=cec1a05b-3003-4f76-b674-8b5f069961e5 Artifact=(@1))" />
+  </IdentifierAliases>
+</DirectedGraph>

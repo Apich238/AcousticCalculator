@@ -1,0 +1,17 @@
+C:\Users\авав\Dropbox\apich\ИНСТИТУТ\Проект\AcousticSimulator\Model\obj\Debug\Fakes\an\b\AssimpNet.3.2.0.0.Fakes.xml
+C:\Users\авав\Dropbox\apich\ИНСТИТУТ\Проект\AcousticSimulator\Model\obj\Debug\Fakes\an\b\AssimpNet.3.2.0.0.Fakes.dll
+C:\Users\авав\Dropbox\apich\ИНСТИТУТ\Проект\AcousticSimulator\Model\obj\Debug\Fakes\an\b\AssimpNet.3.2.0.0.Fakes.pdb
+C:\Users\авав\Dropbox\apich\ИНСТИТУТ\Проект\AcousticSimulator\Model\obj\Debug\Fakes\an\b\AssimpNet.dll
+C:\Users\авав\Dropbox\apich\ИНСТИТУТ\Проект\AcousticSimulator\Model\obj\Debug\Fakes\an\b\MaterialsDatabase.dll
+C:\Users\авав\Dropbox\apich\ИНСТИТУТ\Проект\AcousticSimulator\Model\obj\Debug\Fakes\an\b\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\авав\Dropbox\apich\ИНСТИТУТ\Проект\AcousticSimulator\Model\obj\Debug\Fakes\an\b\MySql.Data.dll
+C:\Users\авав\Dropbox\apich\ИНСТИТУТ\Проект\AcousticSimulator\Model\obj\Debug\Fakes\an\b\OpenTK.dll
+C:\Users\авав\Dropbox\apich\ИНСТИТУТ\Проект\AcousticSimulator\Model\obj\Debug\Fakes\an\b\AssimpNet.pdb
+C:\Users\авав\Dropbox\apich\ИНСТИТУТ\Проект\AcousticSimulator\Model\obj\Debug\Fakes\an\b\AssimpNet.xml
+C:\Users\авав\Dropbox\apich\ИНСТИТУТ\Проект\AcousticSimulator\Model\obj\Debug\Fakes\an\b\MaterialsDatabase.pdb
+C:\Users\авав\Dropbox\apich\ИНСТИТУТ\Проект\AcousticSimulator\Model\obj\Debug\Fakes\an\b\OpenTK.pdb
+C:\Users\авав\Dropbox\apich\ИНСТИТУТ\Проект\AcousticSimulator\Model\obj\Debug\Fakes\an\b\OpenTK.xml
+C:\Users\авав\Dropbox\apich\ИНСТИТУТ\Проект\AcousticSimulator\Model\obj\Debug\Fakes\an\b\ru\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Users\авав\Dropbox\apich\ИНСТИТУТ\Проект\AcousticSimulator\Model\obj\Debug\Fakes\an\o\f.csprojResolveAssemblyReference.cache
+C:\Users\авав\Dropbox\apich\ИНСТИТУТ\Проект\AcousticSimulator\Model\obj\Debug\Fakes\an\o\AssimpNet.3.2.0.0.Fakes.dll
+C:\Users\авав\Dropbox\apich\ИНСТИТУТ\Проект\AcousticSimulator\Model\obj\Debug\Fakes\an\o\AssimpNet.3.2.0.0.Fakes.pdb

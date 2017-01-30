@@ -1,0 +1,3 @@
+C:\Users\Алексей\Dropbox\priv\ИНСТИТУТ\Проект\AcousticSimulator\ModelTemplateEditor\bin\Debug\ModelEditor.exe.config
+C:\Users\Алексей\Dropbox\priv\ИНСТИТУТ\Проект\AcousticSimulator\ModelTemplateEditor\obj\Debug\ModelEditor.exe
+C:\Users\Алексей\Dropbox\priv\ИНСТИТУТ\Проект\AcousticSimulator\ModelTemplateEditor\obj\Debug\ModelEditor.pdb

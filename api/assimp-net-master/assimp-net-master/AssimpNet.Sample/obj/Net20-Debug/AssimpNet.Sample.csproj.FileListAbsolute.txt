@@ -1,0 +1,17 @@
+C:\Users\авав\Dropbox\apich\ИНСТИТУТ\Проект\api\assimp-net-master\assimp-net-master\AssimpNet.Sample\bin\Net20-Debug\AssimpNet.Sample.exe.config
+C:\Users\авав\Dropbox\apich\ИНСТИТУТ\Проект\api\assimp-net-master\assimp-net-master\AssimpNet.Sample\bin\Net20-Debug\Assimp32.dll
+C:\Users\авав\Dropbox\apich\ИНСТИТУТ\Проект\api\assimp-net-master\assimp-net-master\AssimpNet.Sample\bin\Net20-Debug\Assimp64.dll
+C:\Users\авав\Dropbox\apich\ИНСТИТУТ\Проект\api\assimp-net-master\assimp-net-master\AssimpNet.Sample\bin\Net20-Debug\AssimpLicense.txt
+C:\Users\авав\Dropbox\apich\ИНСТИТУТ\Проект\api\assimp-net-master\assimp-net-master\AssimpNet.Sample\bin\Net20-Debug\duckCM.bmp
+C:\Users\авав\Dropbox\apich\ИНСТИТУТ\Проект\api\assimp-net-master\assimp-net-master\AssimpNet.Sample\bin\Net20-Debug\duck.dae
+C:\Users\авав\Dropbox\apich\ИНСТИТУТ\Проект\api\assimp-net-master\assimp-net-master\AssimpNet.Sample\bin\Net20-Debug\AssimpNet.Sample.exe
+C:\Users\авав\Dropbox\apich\ИНСТИТУТ\Проект\api\assimp-net-master\assimp-net-master\AssimpNet.Sample\bin\Net20-Debug\AssimpNet.Sample.pdb
+C:\Users\авав\Dropbox\apich\ИНСТИТУТ\Проект\api\assimp-net-master\assimp-net-master\AssimpNet.Sample\bin\Net20-Debug\AssimpNet.dll
+C:\Users\авав\Dropbox\apich\ИНСТИТУТ\Проект\api\assimp-net-master\assimp-net-master\AssimpNet.Sample\bin\Net20-Debug\OpenTK.dll
+C:\Users\авав\Dropbox\apich\ИНСТИТУТ\Проект\api\assimp-net-master\assimp-net-master\AssimpNet.Sample\bin\Net20-Debug\OpenTK.GLControl.dll
+C:\Users\авав\Dropbox\apich\ИНСТИТУТ\Проект\api\assimp-net-master\assimp-net-master\AssimpNet.Sample\bin\Net20-Debug\AssimpNet.pdb
+C:\Users\авав\Dropbox\apich\ИНСТИТУТ\Проект\api\assimp-net-master\assimp-net-master\AssimpNet.Sample\bin\Net20-Debug\OpenTK.xml
+C:\Users\авав\Dropbox\apich\ИНСТИТУТ\Проект\api\assimp-net-master\assimp-net-master\AssimpNet.Sample\bin\Net20-Debug\OpenTK.GLControl.xml
+C:\Users\авав\Dropbox\apich\ИНСТИТУТ\Проект\api\assimp-net-master\assimp-net-master\AssimpNet.Sample\obj\Net20-Debug\AssimpNet.Sample.csprojResolveAssemblyReference.cache
+C:\Users\авав\Dropbox\apich\ИНСТИТУТ\Проект\api\assimp-net-master\assimp-net-master\AssimpNet.Sample\obj\Net20-Debug\AssimpNet.Sample.exe
+C:\Users\авав\Dropbox\apich\ИНСТИТУТ\Проект\api\assimp-net-master\assimp-net-master\AssimpNet.Sample\obj\Net20-Debug\AssimpNet.Sample.pdb

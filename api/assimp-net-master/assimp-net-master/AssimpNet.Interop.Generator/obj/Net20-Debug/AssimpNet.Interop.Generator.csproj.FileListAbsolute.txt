@@ -1,0 +1,8 @@
+C:\Users\авав\Dropbox\apich\ИНСТИТУТ\Проект\api\assimp-net-master\assimp-net-master\AssimpNet.Interop.Generator\bin\Net20-Debug\AssimpNet.Interop.Generator.exe.config
+C:\Users\авав\Dropbox\apich\ИНСТИТУТ\Проект\api\assimp-net-master\assimp-net-master\AssimpNet.Interop.Generator\bin\Net20-Debug\AssimpNet.Interop.Generator.exe
+C:\Users\авав\Dropbox\apich\ИНСТИТУТ\Проект\api\assimp-net-master\assimp-net-master\AssimpNet.Interop.Generator\bin\Net20-Debug\AssimpNet.Interop.Generator.pdb
+C:\Users\авав\Dropbox\apich\ИНСТИТУТ\Проект\api\assimp-net-master\assimp-net-master\AssimpNet.Interop.Generator\bin\Net20-Debug\Mono.Cecil.dll
+C:\Users\авав\Dropbox\apich\ИНСТИТУТ\Проект\api\assimp-net-master\assimp-net-master\AssimpNet.Interop.Generator\bin\Net20-Debug\Mono.Cecil.Pdb.dll
+C:\Users\авав\Dropbox\apich\ИНСТИТУТ\Проект\api\assimp-net-master\assimp-net-master\AssimpNet.Interop.Generator\obj\Net20-Debug\AssimpNet.Interop.Generator.csprojResolveAssemblyReference.cache
+C:\Users\авав\Dropbox\apich\ИНСТИТУТ\Проект\api\assimp-net-master\assimp-net-master\AssimpNet.Interop.Generator\obj\Net20-Debug\AssimpNet.Interop.Generator.exe
+C:\Users\авав\Dropbox\apich\ИНСТИТУТ\Проект\api\assimp-net-master\assimp-net-master\AssimpNet.Interop.Generator\obj\Net20-Debug\AssimpNet.Interop.Generator.pdb
